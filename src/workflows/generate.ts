@@ -167,7 +167,11 @@ function getSocialPrompt(
   // Safe fallback for targetKeywords
   const keywords = (item.targetKeywords && item.targetKeywords.length > 0) 
     ? item.targetKeywords 
-    : item.topic.toLowerCase().split(/[:\s,/&\-]+/).filter((w) => w.length > 3).slice(0, 5);
+    : String(item.topic ?? "")
+        .toLowerCase()
+        .split(/[:\s,/&\-]+/)
+        .filter((w) => w.length > 3)
+        .slice(0, 5);
   
   const base = `Topic: ${item.topic}\nKeywords: ${keywords.join(", ")}`;
 
@@ -211,7 +215,7 @@ export async function runGenerate(): Promise<{
       platformTargets: item.platformTargets ?? ["blog", "x-twitter", "linkedin"],
       targetKeywords: item.targetKeywords || [
         ...new Set(
-          (item.topic ?? item.title ?? "untitled")
+          String(item.topic ?? item.title ?? "untitled")
             .toLowerCase()
             .split(/[:\s,/&\-]+/)
             .filter((w) => w.length > 3)

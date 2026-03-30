@@ -156,7 +156,7 @@ Return valid JSON matching TrendAnalysis type.`,
         // Extract keywords from title if not provided
         targetKeywords: (item as any).targetKeywords || [
           ...new Set(
-            (item as any).topic
+            String((item as any).topic ?? "")
               .toLowerCase()
               .split(/[:\s,/&\-]+/)
               .filter((w) => w.length > 3 && !["with", "from", "that", "this", "which"].includes(w))
