@@ -1,0 +1,127 @@
+{
+  "fetchedAt": "2026-03-29T08:31:33.786Z",
+  "timeWindow": "24 hours",
+  "subredditsScanned": 29,
+  "totalPosts": 1439,
+  "totalComments": 4867,
+  "totalRequests": 1498,
+  "elapsedMinutes": 46.7,
+  "bySubreddit": {
+    "LocalLLaMA": {
+      "posts": 120,
+      "comments": 584
+    },
+    "LLMDevs": {
+      "posts": 16,
+      "comments": 41
+    },
+    "MachineLearning": {
+      "posts": 7,
+      "comments": 14
+    },
+    "artificial": {
+      "posts": 18,
+      "comments": 97
+    },
+    "OpenAI": {
+      "posts": 24,
+      "comments": 178
+    },
+    "ChatGPT": {
+      "posts": 125,
+      "comments": 834
+    },
+    "singularity": {
+      "posts": 13,
+      "comments": 365
+    },
+    "ClaudeAI": {
+      "posts": 178,
+      "comments": 173
+    },
+    "Anthropic": {
+      "posts": 26,
+      "comments": 0
+    },
+    "ChatGPTCoding": {
+      "posts": 2,
+      "comments": 0
+    },
+    "ArtificialIntelligence": {
+      "posts": 0,
+      "comments": 0
+    },
+    "DataScience": {
+      "posts": 0,
+      "comments": 0
+    },
+    "learnmachinelearning": {
+      "posts": 54,
+      "comments": 0
+    },
+    "MLOps": {
+      "posts": 0,
+      "comments": 0
+    },
+    "PromptEngineering": {
+      "posts": 17,
+      "comments": 0
+    },
+    "ollama": {
+      "posts": 18,
+      "comments": 0
+    },
+    "SaaS": {
+      "posts": 307,
+      "comments": 0
+    },
+    "startups": {
+      "posts": 15,
+      "comments": 0
+    },
+    "indiehackers": {
+      "posts": 1,
+      "comments": 0
+    },
+    "SideProject": {
+      "posts": 280,
+      "comments": 0
+    },
+    "Entrepreneur": {
+      "posts": 9,
+      "comments": 0
+    },
+    "Python": {
+      "posts": 11,
+      "comments": 0
+    },
+    "webdev": {
+      "posts": 113,
+      "comments": 0
+    },
+    "devops": {
+      "posts": 2,
+      "comments": 0
+    },
+    "node": {
+      "posts": 9,
+      "comments": 0
+    },
+    "CloudComputing": {
+      "posts": 0,
+      "comments": 0
+    },
+    "LangChain": {
+      "posts": 8,
+      "comments": 0
+    },
+    "selfhosted": {
+      "posts": 56,
+      "comments": 0
+    },
+    "ExperiencedDevs": {
+      "posts": 7,
+      "comments": 0
+    }
+  }
+}

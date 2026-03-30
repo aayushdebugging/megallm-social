@@ -1,0 +1,113 @@
+{
+  "totalAnalyzed": 368,
+  "avgWordCount": 54,
+  "medianWordCount": 28,
+  "avgWordCountTopComments": 51,
+  "wordCountDistribution": {
+    "1-30": 52,
+    "31-80": 25,
+    "81-150": 16,
+    "151-300": 6,
+    "300+": 1
+  },
+  "pctAllLowercase": 12,
+  "pctStartsUppercase": 75,
+  "avgLowercaseRatio": 95,
+  "pctHasEmoji": 3,
+  "avgEmojiCount": "0.0",
+  "topEmojis": [
+    [
+      "😅",
+      2
+    ],
+    [
+      "🖕",
+      1
+    ],
+    [
+      "📈",
+      1
+    ],
+    [
+      "😄",
+      1
+    ],
+    [
+      "😆",
+      1
+    ],
+    [
+      "😂",
+      1
+    ],
+    [
+      "🙏",
+      1
+    ],
+    [
+      "💪",
+      1
+    ],
+    [
+      "🌍",
+      1
+    ],
+    [
+      "😑",
+      1
+    ]
+  ],
+  "pctHasCode": 1,
+  "pctHasBullets": 6,
+  "pctHasLinks": 11,
+  "pctHasBold": 1,
+  "pctHasSarcasm": 7,
+  "pctHasHumor": 1,
+  "pctIsPersonal": 15,
+  "pctHasQuestion": 21,
+  "pctHasExclamation": 8,
+  "pctHasAgreement": 23,
+  "pctHasDisagreement": 11,
+  "pctStartsWithI": 8,
+  "pctStartsWithDirectAnswer": 4,
+  "pctStartsWithQuestion": 0,
+  "pctHasAIPatterns": 1,
+  "bySubreddit": {
+    "LocalLLaMA": {
+      "count": 118,
+      "avgWords": 30,
+      "pctHumor": 3.1186440677966103,
+      "pctSarcasm": 6.237288135593221,
+      "pctCode": 0,
+      "pctPersonal": 6.237288135593221,
+      "avgUpvotes": 68
+    },
+    "LLMDevs": {
+      "count": 59,
+      "avgWords": 77,
+      "pctHumor": 0,
+      "pctSarcasm": 6.237288135593221,
+      "pctCode": 0,
+      "pctPersonal": 31.1864406779661,
+      "avgUpvotes": 3
+    },
+    "MachineLearning": {
+      "count": 94,
+      "avgWords": 78,
+      "pctHumor": 0,
+      "pctSarcasm": 7.829787234042553,
+      "pctCode": 0,
+      "pctPersonal": 27.404255319148938,
+      "avgUpvotes": 28
+    },
+    "artificial": {
+      "count": 97,
+      "avgWords": 45,
+      "pctHumor": 0,
+      "pctSarcasm": 3.7938144329896906,
+      "pctCode": 0,
+      "pctPersonal": 7.587628865979381,
+      "avgUpvotes": 10
+    }
+  }
+}

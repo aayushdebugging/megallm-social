@@ -1,0 +1,876 @@
+[
+  {
+    "id": "3381788",
+    "primaryTag": "discuss",
+    "tags": [
+      "discuss",
+      "career",
+      "productivity",
+      "mentalhealth"
+    ],
+    "title": "How I Almost Burned Out Doing Everything “Right”",
+    "description": "Today I wanted to write a philosophical essay about AI. Or maybe something more technical. But once...",
+    "url": "https://dev.to/sylwia-lask/how-i-almost-burned-out-doing-everything-right-31j6",
+    "ups": 149,
+    "numComments": 101,
+    "createdUtc": 1774515068,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3410004",
+    "primaryTag": "ai",
+    "tags": [
+      "agents",
+      "ai",
+      "productivity",
+      "discuss"
+    ],
+    "title": "Speed vs smarts for coding agents?",
+    "description": "I'm curious if you specifically have a sense of where you draw the line in terms of your interest in...",
+    "url": "https://dev.to/ben/speed-vs-smarts-for-coding-agents-3h",
+    "ups": 47,
+    "numComments": 22,
+    "createdUtc": 1774540702,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3410004",
+    "primaryTag": "discuss",
+    "tags": [
+      "agents",
+      "ai",
+      "productivity",
+      "discuss"
+    ],
+    "title": "Speed vs smarts for coding agents?",
+    "description": "I'm curious if you specifically have a sense of where you draw the line in terms of your interest in...",
+    "url": "https://dev.to/ben/speed-vs-smarts-for-coding-agents-3h",
+    "ups": 47,
+    "numComments": 22,
+    "createdUtc": 1774540702,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3421937",
+    "primaryTag": "javascript",
+    "tags": [
+      "webdev",
+      "programming",
+      "javascript",
+      "donttrythisathome"
+    ],
+    "title": "How to use Timberborn 🦫 (yes, the beaver city-building game) as a database 💾",
+    "description": "So, one of my favourite games lately, Timberborn, has released its 1.0 version and finally left early...",
+    "url": "https://dev.to/thormeier/how-to-use-timberborn-yes-the-beaver-city-building-game-as-a-database-489c",
+    "ups": 33,
+    "numComments": 3,
+    "createdUtc": 1774726772,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3421937",
+    "primaryTag": "programming",
+    "tags": [
+      "webdev",
+      "programming",
+      "javascript",
+      "donttrythisathome"
+    ],
+    "title": "How to use Timberborn 🦫 (yes, the beaver city-building game) as a database 💾",
+    "description": "So, one of my favourite games lately, Timberborn, has released its 1.0 version and finally left early...",
+    "url": "https://dev.to/thormeier/how-to-use-timberborn-yes-the-beaver-city-building-game-as-a-database-489c",
+    "ups": 33,
+    "numComments": 3,
+    "createdUtc": 1774726772,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3421937",
+    "primaryTag": "webdev",
+    "tags": [
+      "webdev",
+      "programming",
+      "javascript",
+      "donttrythisathome"
+    ],
+    "title": "How to use Timberborn 🦫 (yes, the beaver city-building game) as a database 💾",
+    "description": "So, one of my favourite games lately, Timberborn, has released its 1.0 version and finally left early...",
+    "url": "https://dev.to/thormeier/how-to-use-timberborn-yes-the-beaver-city-building-game-as-a-database-489c",
+    "ups": 32,
+    "numComments": 3,
+    "createdUtc": 1774726772,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3411333",
+    "primaryTag": "javascript",
+    "tags": [
+      "architecture",
+      "javascript",
+      "buildinpublic",
+      "react"
+    ],
+    "title": "Why I Deleted My Custom \"Crew\" Logic Mid-Build",
+    "description": "I was deep into building a custom \"Crew\" management system for my Next.js SaaS, a job and invoice...",
+    "url": "https://dev.to/teronbullock/why-i-deleted-my-custom-crew-logic-mid-build-2mp5",
+    "ups": 27,
+    "numComments": 5,
+    "createdUtc": 1774568071,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3417642",
+    "primaryTag": "beginners",
+    "tags": [
+      "beginners",
+      "career",
+      "ai",
+      "programming"
+    ],
+    "title": "Learn the Hard Way First: Why New Developers Should Build Skills Before Leaning on AI",
+    "description": "Welcome to your first job, freshers. You've probably already used ChatGPT or Copilot to get through...",
+    "url": "https://dev.to/rickcogley/learn-the-hard-way-first-why-new-developers-should-build-skills-before-leaning-on-ai-ibk",
+    "ups": 13,
+    "numComments": 5,
+    "createdUtc": 1774663194,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3392381",
+    "primaryTag": "beginners",
+    "tags": [
+      "beginners",
+      "ai",
+      "career",
+      "discuss"
+    ],
+    "title": "From Engineering Floor to App Store: What 10 Years as a Manufacturing Engineer Taught Me About Building Software",
+    "description": "No CS degree. No bootcamp. Just 10 years on factory floors and a stubborn belief that the software I...",
+    "url": "https://dev.to/wong2kim/i-spent-10-years-in-manufacturing-now-i-build-ios-apps-with-ai-1mea",
+    "ups": 12,
+    "numComments": 0,
+    "createdUtc": 1774323465,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3417191",
+    "primaryTag": "beginners",
+    "tags": [
+      "career",
+      "beginners",
+      "productivity",
+      "programming"
+    ],
+    "title": "How to Talk to Managers (So They Actually Listen to You)",
+    "description": "25 years in the IT industry taught me this — great developers go invisible not because their code is bad, but because they communicate in the wrong language. Here's how to fix that.",
+    "url": "https://dev.to/lessonsfromproduction/how-to-talk-to-managers-so-they-actually-listen-to-you-44hm",
+    "ups": 11,
+    "numComments": 3,
+    "createdUtc": 1774651226,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3419908",
+    "primaryTag": "beginners",
+    "tags": [
+      "blogging",
+      "writing",
+      "improvement",
+      "beginners"
+    ],
+    "title": "Why You Should Start Blogging (Even If Nobody Will Read It)",
+    "description": "Why You Should Start Blogging (Even If Nobody Will Read It)",
+    "url": "https://dev.to/nikola/why-you-should-start-blogging-even-if-nobody-will-read-it-4h6",
+    "ups": 10,
+    "numComments": 1,
+    "createdUtc": 1774692960,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3391762",
+    "primaryTag": "devops",
+    "tags": [
+      "nginx",
+      "wordpress",
+      "devops",
+      "opensource"
+    ],
+    "title": "Why Purging Nginx Cache Is Only Half the Job (And How I Built the Other Half)",
+    "description": "A deep dive into NPP — the WordPress plugin that purges Nginx cache and immediately preloads it. Covers the 3-layer purge strategy, Vary header trap, Redis sync, WooCommerce hooks, safexec, and more.",
+    "url": "https://dev.to/psauxit/why-purging-nginx-cache-is-only-half-the-job-and-how-i-built-the-other-half-3bhp",
+    "ups": 6,
+    "numComments": 0,
+    "createdUtc": 1774318732,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3411186",
+    "primaryTag": "devops",
+    "tags": [
+      "laravel",
+      "deploynix",
+      "deployment",
+      "devops"
+    ],
+    "title": "The State of Laravel Deployment in 2026: What's Changed and What Still Hurts",
+    "description": "An industry overview of Laravel deployment in 2026 — what has evolved, what pain points remain, and where the ecosystem is heading.",
+    "url": "https://dev.to/deploynix/the-state-of-laravel-deployment-in-2026-whats-changed-and-what-still-hurts-37l2",
+    "ups": 4,
+    "numComments": 1,
+    "createdUtc": 1774563593,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3421700",
+    "primaryTag": "beginners",
+    "tags": [
+      "webdev",
+      "a11y",
+      "wcag",
+      "beginners"
+    ],
+    "title": "I scanned 10 UK web agency websites for WCAG 2.2 violations — here's what I found",
+    "description": "I'm 15, and I recently built an accessibility scanner that checks websites against WCAG 2.2...",
+    "url": "https://dev.to/viascan16/i-scanned-10-uk-web-agency-websites-for-wcag-22-violations-heres-what-i-foun-eei",
+    "ups": 3,
+    "numComments": 0,
+    "createdUtc": 1774717743,
+    "isQuestion": true,
+    "topComments": []
+  },
+  {
+    "id": "3403502",
+    "primaryTag": "ai",
+    "tags": [
+      "ai",
+      "mcp",
+      "postgres",
+      "agents"
+    ],
+    "title": "your agent can think. it can't remember.",
+    "description": "TLDR: ghost gives your agent instant, ephemeral postgres databases. unlimited databases, unlimited...",
+    "url": "https://dev.to/ghostbuild/your-agent-can-think-it-cant-remember-5e1o",
+    "ups": 156,
+    "numComments": 49,
+    "createdUtc": 1774450916,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3392308",
+    "primaryTag": "ai",
+    "tags": [
+      "webdev",
+      "webscraping",
+      "ai",
+      "programming"
+    ],
+    "title": "The Ultimate Job Finding-Management Tool",
+    "description": "I need to go to bed but I want to share my excitement before I crash. I built a tool finally to help...",
+    "url": "https://dev.to/annavi11arrea1/the-ultimate-job-finding-managment-tool-522i",
+    "ups": 119,
+    "numComments": 65,
+    "createdUtc": 1774321520,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3392308",
+    "primaryTag": "webdev",
+    "tags": [
+      "webdev",
+      "webscraping",
+      "ai",
+      "programming"
+    ],
+    "title": "The Ultimate Job Finding-Management Tool",
+    "description": "I need to go to bed but I want to share my excitement before I crash. I built a tool finally to help...",
+    "url": "https://dev.to/annavi11arrea1/the-ultimate-job-finding-managment-tool-522i",
+    "ups": 119,
+    "numComments": 65,
+    "createdUtc": 1774321520,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3392308",
+    "primaryTag": "programming",
+    "tags": [
+      "webdev",
+      "webscraping",
+      "ai",
+      "programming"
+    ],
+    "title": "The Ultimate Job Finding-Management Tool",
+    "description": "I need to go to bed but I want to share my excitement before I crash. I built a tool finally to help...",
+    "url": "https://dev.to/annavi11arrea1/the-ultimate-job-finding-managment-tool-522i",
+    "ups": 119,
+    "numComments": 65,
+    "createdUtc": 1774321520,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3187669",
+    "primaryTag": "webdev",
+    "tags": [
+      "webdev",
+      "programming",
+      "a11y",
+      "frontend"
+    ],
+    "title": "The Small Details That Make a Website Feel Finished (And Quietly Improve Accessibility, Performance, and Trust)",
+    "description": "For a long time, I thought a website was “done” when it worked.  The pages loaded. The buttons...",
+    "url": "https://dev.to/hadil/the-small-details-that-make-a-website-feel-finished-and-quietly-improve-accessibility-4jkp",
+    "ups": 106,
+    "numComments": 16,
+    "createdUtc": 1774510753,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3187669",
+    "primaryTag": "programming",
+    "tags": [
+      "webdev",
+      "programming",
+      "a11y",
+      "frontend"
+    ],
+    "title": "The Small Details That Make a Website Feel Finished (And Quietly Improve Accessibility, Performance, and Trust)",
+    "description": "For a long time, I thought a website was “done” when it worked.  The pages loaded. The buttons...",
+    "url": "https://dev.to/hadil/the-small-details-that-make-a-website-feel-finished-and-quietly-improve-accessibility-4jkp",
+    "ups": 106,
+    "numComments": 16,
+    "createdUtc": 1774510753,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3416677",
+    "primaryTag": "ai",
+    "tags": [
+      "devchallenge",
+      "notionchallenge",
+      "mcp",
+      "ai"
+    ],
+    "title": "Turning Weekly GitHub Activity Into Blog Posts on Notion + DEV.to",
+    "description": "This is a submission for the Notion MCP Challenge           What I Built   Every Monday standup,...",
+    "url": "https://dev.to/yashksaini/i-built-a-3-agent-pipeline-that-turns-my-github-activity-into-weekly-blog-posts-on-notion-devto-1ndn",
+    "ups": 73,
+    "numComments": 13,
+    "createdUtc": 1774638428,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3416041",
+    "primaryTag": "programming",
+    "tags": [
+      "discuss",
+      "devjournal",
+      "programming",
+      "community"
+    ],
+    "title": "🗓️ Monthly Dev Report: March 2026",
+    "description": "Hey everyone! I bring you my development journey on what I have discovered, accomplishments for this...",
+    "url": "https://dev.to/francistrdev/monthly-dev-report-march-2026-3ad5",
+    "ups": 62,
+    "numComments": 21,
+    "createdUtc": 1774633798,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3416041",
+    "primaryTag": "discuss",
+    "tags": [
+      "discuss",
+      "devjournal",
+      "programming",
+      "community"
+    ],
+    "title": "🗓️ Monthly Dev Report: March 2026",
+    "description": "Hey everyone! I bring you my development journey on what I have discovered, accomplishments for this...",
+    "url": "https://dev.to/francistrdev/monthly-dev-report-march-2026-3ad5",
+    "ups": 62,
+    "numComments": 21,
+    "createdUtc": 1774633798,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3395533",
+    "primaryTag": "ai",
+    "tags": [
+      "ai",
+      "devops",
+      "devrel",
+      "programming"
+    ],
+    "title": "I’m Learning AI in Public, and I Think Developers Need to Chill a Bit",
+    "description": "I’ve been going hard learning AI and tech. Building, breaking stuff, rebuilding it, reading docs at...",
+    "url": "https://dev.to/jon_at_backboardio/im-learning-ai-in-public-and-i-think-developers-need-to-chill-a-bit-31d2",
+    "ups": 55,
+    "numComments": 12,
+    "createdUtc": 1774364010,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3395533",
+    "primaryTag": "devops",
+    "tags": [
+      "ai",
+      "devops",
+      "devrel",
+      "programming"
+    ],
+    "title": "I’m Learning AI in Public, and I Think Developers Need to Chill a Bit",
+    "description": "I’ve been going hard learning AI and tech. Building, breaking stuff, rebuilding it, reading docs at...",
+    "url": "https://dev.to/jon_at_backboardio/im-learning-ai-in-public-and-i-think-developers-need-to-chill-a-bit-31d2",
+    "ups": 54,
+    "numComments": 12,
+    "createdUtc": 1774364010,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3391274",
+    "primaryTag": "discuss",
+    "tags": [
+      "top7",
+      "discuss"
+    ],
+    "title": "Top 7 Featured DEV Posts of the Week",
+    "description": "Welcome to this week's Top 7, where the DEV editorial team handpicks their favorite posts from the...",
+    "url": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-4ig2",
+    "ups": 54,
+    "numComments": 6,
+    "createdUtc": 1774382242,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3416968",
+    "primaryTag": "programming",
+    "tags": [
+      "weekendchallenge",
+      "devchallenge",
+      "hackathon",
+      "programming"
+    ],
+    "title": "The Next DEV Weekend Challenge Launches on April 16 - 20. Mark Your Calendar!",
+    "description": "We're back with another installment of our newest format: the DEV Weekend Challenge!   If you missed...",
+    "url": "https://dev.to/devteam/the-next-dev-weekend-challenge-launches-on-april-16-20-mark-your-calendar-5pd",
+    "ups": 46,
+    "numComments": 2,
+    "createdUtc": 1774647211,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3408110",
+    "primaryTag": "webdev",
+    "tags": [
+      "opensource",
+      "go",
+      "webdev"
+    ],
+    "title": "I built a file transfer tool that can’t spy on you even if it wanted to",
+    "description": "I got tired of explaining privacy policies to people.  Every time I needed to send a file to someone,...",
+    "url": "https://dev.to/aliirz/i-built-a-file-transfer-tool-that-cant-spy-on-you-even-if-it-wanted-to-2p39",
+    "ups": 35,
+    "numComments": 12,
+    "createdUtc": 1774522255,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3408110",
+    "primaryTag": "opensource",
+    "tags": [
+      "opensource",
+      "go",
+      "webdev"
+    ],
+    "title": "I built a file transfer tool that can’t spy on you even if it wanted to",
+    "description": "I got tired of explaining privacy policies to people.  Every time I needed to send a file to someone,...",
+    "url": "https://dev.to/aliirz/i-built-a-file-transfer-tool-that-cant-spy-on-you-even-if-it-wanted-to-2p39",
+    "ups": 35,
+    "numComments": 12,
+    "createdUtc": 1774522255,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3396106",
+    "primaryTag": "opensource",
+    "tags": [
+      "discuss",
+      "opensource",
+      "womenintech"
+    ],
+    "title": "The Vonage Dev Discussion: Open Source",
+    "description": "At Women+ in Open Source Day, I got to try my hand at making a contribution to Apache Spark. While I...",
+    "url": "https://dev.to/vonagedev/the-vonage-dev-discussion-open-source-ipb",
+    "ups": 35,
+    "numComments": 14,
+    "createdUtc": 1774457952,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3391820",
+    "primaryTag": "javascript",
+    "tags": [
+      "webdev",
+      "react",
+      "javascript",
+      "cleancode"
+    ],
+    "title": "React Components vs Spaghetti: 5 Signs Your UI Is Becoming Unmaintainable",
+    "description": "Last week I opened a React component… and immediately closed it.  Not because it was complex.  But...",
+    "url": "https://dev.to/gavincettolo/react-components-vs-spaghetti-5-signs-your-ui-is-becoming-unmaintainable-120m",
+    "ups": 34,
+    "numComments": 12,
+    "createdUtc": 1774341000,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3411663",
+    "primaryTag": "javascript",
+    "tags": [
+      "weather",
+      "webdev",
+      "api",
+      "javascript"
+    ],
+    "title": "I Love Watching the Storms Roll In",
+    "description": "I have always liked the weather radar. First of all, it's rainbow. Second of all, the weather is...",
+    "url": "https://dev.to/annavi11arrea1/i-love-watching-the-storms-roll-in-166m",
+    "ups": 29,
+    "numComments": 9,
+    "createdUtc": 1774577172,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3391301",
+    "primaryTag": "webdev",
+    "tags": [
+      "webdev",
+      "leadership",
+      "discuss"
+    ],
+    "title": "Jargon Doesn't Make You Senior",
+    "description": "I asked one of my tech leads to demo the latest work to a cross-functional group. Business...",
+    "url": "https://dev.to/jonoherrington/jargon-doesnt-make-you-senior-50fd",
+    "ups": 27,
+    "numComments": 18,
+    "createdUtc": 1774293053,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3396977",
+    "primaryTag": "machinelearning",
+    "tags": [
+      "ai",
+      "opensource",
+      "machinelearning",
+      "python"
+    ],
+    "title": "Engram: A new type of AI",
+    "description": "From the author:  From my endless pursuit of getting LLM's to stop hallucinating I had a late night...",
+    "url": "https://dev.to/nodefiend/engram-a-new-type-of-ai-1jbd",
+    "ups": 23,
+    "numComments": 5,
+    "createdUtc": 1774386354,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3431856",
+    "primaryTag": "discuss",
+    "tags": [
+      "top7",
+      "discuss"
+    ],
+    "title": "Top 7 Featured DEV Posts of the Week",
+    "description": "Welcome to this week's Top 7, where the DEV editorial team handpicks their favorite posts from the...",
+    "url": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-ba0",
+    "ups": 21,
+    "numComments": 5,
+    "createdUtc": 1774894226,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3384145",
+    "primaryTag": "javascript",
+    "tags": [
+      "javascript",
+      "webdev",
+      "programming",
+      "discuss"
+    ],
+    "title": "A Single Regex Got Its Own npm Package. It Gets 70 Million Downloads a Week.",
+    "description": "A regular expression was popular enough to warrant its own npm package. It's downloaded 70 million...",
+    "url": "https://dev.to/adioof/a-single-regex-got-its-own-npm-package-it-gets-70-million-downloads-a-week-4h59",
+    "ups": 15,
+    "numComments": 7,
+    "createdUtc": 1774305439,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3426329",
+    "primaryTag": "machinelearning",
+    "tags": [
+      "machinelearning",
+      "pytorch",
+      "python",
+      "tutorial"
+    ],
+    "title": "Run Any HuggingFace Model on TPUs: A Beginner's Guide to TorchAX",
+    "description": "Learn how to run PyTorch HuggingFace models on Google TPUs using torchax — no JAX rewrite needed. Includes benchmarks, text classification, text generation, and a Colab notebook.",
+    "url": "https://dev.to/gde/run-any-huggingface-model-on-tpus-a-beginners-guide-to-torchax-4ln0",
+    "ups": 11,
+    "numComments": 0,
+    "createdUtc": 1774803854,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3421687",
+    "primaryTag": "python",
+    "tags": [
+      "ai",
+      "gemini",
+      "python",
+      "tutorial"
+    ],
+    "title": "Gemini 3.1: Real-World Voice Recognition with Flash Live: Making Your LINE Bot Understand You",
+    "description": "Background   Google released Gemini 3.1 Flash Live at the end of March 2026 March,...",
+    "url": "https://dev.to/gde/gemini-31-real-world-voice-recognition-with-flash-live-making-your-line-bot-understand-you-560o",
+    "ups": 11,
+    "numComments": 0,
+    "createdUtc": 1774750046,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3387199",
+    "primaryTag": "opensource",
+    "tags": [
+      "rag",
+      "genai",
+      "opensource",
+      "adk"
+    ],
+    "title": "Implementing a RAG system: Crawl",
+    "description": "I'm starting a \"Crawl, walk, run\" series of posts on various topics and decided to start with...",
+    "url": "https://dev.to/gde/implementing-a-rag-system-crawl-5li",
+    "ups": 9,
+    "numComments": 4,
+    "createdUtc": 1774375200,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3394673",
+    "primaryTag": "devops",
+    "tags": [
+      "ai",
+      "agents",
+      "automation",
+      "devops"
+    ],
+    "title": "AI Skills Are the New Boilerplate. They Solve Almost Nothing.",
+    "description": "Everyone's sharing their skill libraries right now. \"Here are my 20 custom slash commands.\" \"Check...",
+    "url": "https://dev.to/reneza/ai-skills-are-the-new-boilerplate-they-solve-almost-nothing-4obo",
+    "ups": 8,
+    "numComments": 13,
+    "createdUtc": 1774350797,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3397071",
+    "primaryTag": "python",
+    "tags": [
+      "gemini",
+      "python",
+      "azureappservice",
+      "googleadk"
+    ],
+    "title": "Building a Multimodal Cross Cloud Live Agent with ADK, Azure App Service, and Gemini CLI",
+    "description": "Leveraging the Google Agent Development Kit (ADK) and the underlying Gemini LLM to build cross cloud...",
+    "url": "https://dev.to/gde/building-a-multimodal-cross-cloud-live-agent-with-adk-azure-app-service-and-gemini-cli-2ma3",
+    "ups": 8,
+    "numComments": 1,
+    "createdUtc": 1774375075,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3395455",
+    "primaryTag": "opensource",
+    "tags": [
+      "ai",
+      "security",
+      "python",
+      "opensource"
+    ],
+    "title": "Your AI Agent Can Be Hijacked With 3 Lines of JSON",
+    "description": "MCP tool poisoning, rug pulls, and schema injection are real. Here is how to detect and block them.",
+    "url": "https://dev.to/acacian/your-ai-agent-can-be-hijacked-with-3-lines-of-json-5878",
+    "ups": 7,
+    "numComments": 16,
+    "createdUtc": 1774362598,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3395455",
+    "primaryTag": "python",
+    "tags": [
+      "ai",
+      "security",
+      "python",
+      "opensource"
+    ],
+    "title": "Your AI Agent Can Be Hijacked With 3 Lines of JSON",
+    "description": "MCP tool poisoning, rug pulls, and schema injection are real. Here is how to detect and block them.",
+    "url": "https://dev.to/acacian/your-ai-agent-can-be-hijacked-with-3-lines-of-json-5878",
+    "ups": 7,
+    "numComments": 16,
+    "createdUtc": 1774362598,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3391655",
+    "primaryTag": "python",
+    "tags": [
+      "googleadk",
+      "awslightsail",
+      "gemini",
+      "python"
+    ],
+    "title": "Building a Multimodal Cross Cloud Live Agent with ADK, Amazon Lightsail, and Gemini CLI",
+    "description": "Leveraging the Google Agent Development Kit (ADK) and the underlying Gemini LLM to build cross cloud...",
+    "url": "https://dev.to/gde/building-a-multimodal-cross-cloud-live-agent-with-adk-amazon-lightsail-and-gemini-cli-4p56",
+    "ups": 7,
+    "numComments": 1,
+    "createdUtc": 1774287869,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3421389",
+    "primaryTag": "devops",
+    "tags": [
+      "ai",
+      "architecture",
+      "productivity",
+      "devops"
+    ],
+    "title": "I Run 6 AI Agents as My Dev Team — Here's the Architecture That Actually Works",
+    "description": "I'm not a developer. I don't write code. But I ship production software across 8+ projects — trading...",
+    "url": "https://dev.to/joongho_kwon_2754f08bdadd/i-run-6-ai-agents-as-my-dev-team-heres-the-architecture-that-actually-works-3bgo",
+    "ups": 5,
+    "numComments": 6,
+    "createdUtc": 1774712498,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3396524",
+    "primaryTag": "opensource",
+    "tags": [
+      "python",
+      "linux",
+      "opensource",
+      "productivity"
+    ],
+    "title": "I Built a Clipboard Manager for Kali Linux — And Learned Way More Than Expected",
+    "description": "So here's how it started: I kept losing code snippets, IP addresses, and payloads between windows...",
+    "url": "https://dev.to/freerave/i-built-a-clipboard-manager-for-kali-linux-and-learned-way-more-than-expected-3hm9",
+    "ups": 5,
+    "numComments": 4,
+    "createdUtc": 1774429200,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3396524",
+    "primaryTag": "python",
+    "tags": [
+      "python",
+      "linux",
+      "opensource",
+      "productivity"
+    ],
+    "title": "I Built a Clipboard Manager for Kali Linux — And Learned Way More Than Expected",
+    "description": "So here's how it started: I kept losing code snippets, IP addresses, and payloads between windows...",
+    "url": "https://dev.to/freerave/i-built-a-clipboard-manager-for-kali-linux-and-learned-way-more-than-expected-3hm9",
+    "ups": 5,
+    "numComments": 4,
+    "createdUtc": 1774429200,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3162473",
+    "primaryTag": "machinelearning",
+    "tags": [
+      "machinelearning",
+      "datascience",
+      "wearables",
+      "python"
+    ],
+    "title": "Taming the Glucose Spike: Predicting Postprandial Peaks with Transformers and PyTorch",
+    "description": "Living with a Continuous Glucose Monitor (CGM) is like having a dashboard for your metabolism. But...",
+    "url": "https://dev.to/beck_moulton/taming-the-glucose-spike-predicting-postprandial-peaks-with-transformers-and-pytorch-olo",
+    "ups": 4,
+    "numComments": 0,
+    "createdUtc": 1774658400,
+    "isQuestion": false,
+    "topComments": []
+  },
+  {
+    "id": "3393196",
+    "primaryTag": "machinelearning",
+    "tags": [
+      "computervision",
+      "aws",
+      "ai",
+      "machinelearning"
+    ],
+    "title": "Deploying CVAT on AWS for Image and Video Annotation",
+    "description": "Building a computer vision model starts with labelled data, and that labelling work is where a...",
+    "url": "https://dev.to/gowtham21/deploying-cvat-on-aws-for-image-and-video-annotation-425i",
+    "ups": 4,
+    "numComments": 0,
+    "createdUtc": 1774334416,
+    "isQuestion": false,
+    "topComments": []
+  }
+]

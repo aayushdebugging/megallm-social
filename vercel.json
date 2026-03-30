@@ -1,0 +1,29 @@
+{
+  "crons": [
+    {
+      "path": "/api/pipeline/analyze",
+      "schedule": "0 */6 * * *"
+    },
+    {
+      "path": "/api/pipeline/generate",
+      "schedule": "0 6 * * *"
+    },
+    {
+      "path": "/api/pipeline/post",
+      "schedule": "0 9 * * *"
+    },
+    {
+      "path": "/api/pipeline/feedback",
+      "schedule": "0 23 * * *"
+    },
+    {
+      "path": "/api/pipeline/improve",
+      "schedule": "0 7 * * 1"
+    }
+  ],
+  "functions": {
+    "app/api/pipeline/**": {
+      "maxDuration": 300
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "post": {
+    "title": "is anyone else going insane trying to track llm api costs across providers?",
+    "ups": 22,
+    "id": "1s6qgj9",
+    "selftext": "so i've been building this side project that uses llm apis and holy shit the pricing is all over the place. been manually tracking costs across openai, anthropic, and a few others and it's driving me nuts.          \n\nlike openai charges per token but then there's caching, anthropic has different rates for haiku vs sonnet, some providers charge for prompts vs completions differently. \n\ni made a spreadsheet and it's a mess lol.         \n\nhas anyone found a good way to handle this? are you just eating the cost and not worrying about it? using some kind of routing layer? \n\ni feel like i'm spending more time on cost optimization than actually building features.                                                       "
+  },
+  "comments": [
+    {
+      "id": "od3qx7y",
+      "author": "12bitmisfit",
+      "body": "Running it local. Much easier to track pricing.\n\nOne kidney and half a liver ;) ",
+      "ups": 2,
+      "depth": 0,
+      "parentId": "t3_1s6qgj9"
+    },
+    {
+      "id": "od3rurn",
+      "author": "Hot-Employ-3399",
+      "body": "No, running it locally. Also api prices seems to change too often ",
+      "ups": 2,
+      "depth": 0,
+      "parentId": "t3_1s6qgj9"
+    },
+    {
+      "id": "od3r4t9",
+      "author": "GroundbreakingMall54",
+      "body": "been there lol. honestly helicopter is a game changer for this - one dashboard for all your llm spend across providers. also checkout portkey if you want something more enterprisey. i was in the same boat and cost optimization was eating like 30% of my dev time",
+      "ups": 1,
+      "depth": 0,
+      "parentId": "t3_1s6qgj9"
+    },
+    {
+      "id": "od3sfet",
+      "author": "madtopo",
+      "body": "I'm not sure if this covers your user case but it's probably worth mentioning openrouter.ai, which routes your request to the best provider available, often the cheapest as well.",
+      "ups": 1,
+      "depth": 0,
+      "parentId": "t3_1s6qgj9"
+    },
+    {
+      "id": "od3sbmm",
+      "author": "ChrisRemo85",
+      "body": "The spreadsheet phase is real - been there.\n\nWhat worked for us: put a proxy in front of all providers. Every request gets logged with token count + estimated cost automatically, regardless of provider. You configure pricing per model once (input\\_per\\_1m, output\\_per\\_1m) and the proxy calculates cost per request.\n\nThe nice part is you get a [https://raw.githubusercontent.com/voidmind-io/voidllm/main/docs/screenshots/VoidLLM-Usage.jpg](https://raw.githubusercontent.com/voidmind-io/voidllm/main/docs/screenshots/VoidLLM-Usage.jpg) across all providers - group by model, key, team, day. No more spreadsheet.\n\nAlso solves the \"oops left a script running\" problem since you can set daily token budgets per key. Proxy cuts it off before you get a surprise bill.\n\nWe built this open source: [https://github.com/voidmind-io/voidllm](https://github.com/voidmind-io/voidllm) \\- Go binary, &lt;2ms overhead, works with OpenAI, Anthropic, Azure, Ollama, vLLM, any OpenAI-compatible endpoint.\n\nu/12bitmisfit u/Hot-Employ-3399 \\- if you're running local (Ollama/vLLM), same proxy works in front of those too. Usage tracking even when there's no bill, so you know which projects are eating GPU time.",
+      "ups": 0,
+      "depth": 0,
+      "parentId": "t3_1s6qgj9"
+    }
+  ]
+}

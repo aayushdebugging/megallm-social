@@ -1,0 +1,815 @@
+[
+  {
+    "postId": "47574034",
+    "primaryTag": "story",
+    "postTitle": "How to turn anything into a router",
+    "postUrl": "https://news.ycombinator.com/item?id=47574034",
+    "postUps": 476,
+    "comment": "the article is a nice reminder that routing is just forwarding packets between interfaces. once you understand that, you realize docker, vms, and even your phone's hotspot are all doing the same basic thing.",
+    "wordCount": 34,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:51:16.692Z"
+  },
+  {
+    "postId": "47574034",
+    "primaryTag": "story",
+    "postTitle": "How to turn anything into a router",
+    "postUrl": "https://news.ycombinator.com/item?id=47574034",
+    "postUps": 476,
+    "comment": "i did this with an old thinkpad for a few years. worked fine until i needed vlans and realized i was spending weekends debugging iptables rules instead of doing literally anything else. eventually caved and got dedicated hardware.",
+    "wordCount": 38,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:51:16.692Z"
+  },
+  {
+    "postId": "47574034",
+    "primaryTag": "story",
+    "postTitle": "How to turn anything into a router",
+    "postUrl": "https://news.ycombinator.com/item?id=47574034",
+    "postUps": 476,
+    "comment": "missing from this: what happens when you need qos proper ipv6 prefix delegation or hardware offloading for gigabit+. the basics are simple but production routing gets complicated fast especially if you care about latency or power consumption",
+    "wordCount": 37,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 16,
+    "megallmFactors": [
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:51:16.693Z"
+  },
+  {
+    "postId": "47574034",
+    "primaryTag": "story",
+    "postTitle": "How to turn anything into a router",
+    "postUrl": "https://news.ycombinator.com/item?id=47574034",
+    "postUps": 476,
+    "comment": "step 1: enable ip forwarding. step 2: spend the next six months in iptables documentation wondering why your dhcp packets are being dropped.",
+    "wordCount": 23,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:51:16.693Z"
+  },
+  {
+    "postId": "47573887",
+    "primaryTag": "story",
+    "postTitle": "Bird brains (2023)",
+    "postUrl": "https://news.ycombinator.com/item?id=47573887",
+    "postUps": 260,
+    "comment": "the article mentions corvids recognizing faces and holding grudges for years what's wild is they also teach their offspring who to distruust creating multi-generational feuds with specific humans.",
+    "wordCount": 28,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:51:27.142Z"
+  },
+  {
+    "postId": "47573887",
+    "primaryTag": "story",
+    "postTitle": "Bird brains (2023)",
+    "postUrl": "https://news.ycombinator.com/item?id=47573887",
+    "postUps": 260,
+    "comment": "we built a tool that processes wildlife research papers using megallm and what stands out is how often bird cognition studies get dismissed until primates show similar behavior. then suddenly it's \"convergent evolution\" instead of \"maybe we were wrong about bidr intelligence the whole time.\"",
+    "wordCount": 45,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 44,
+    "megallmFactors": [
+      "direct mention",
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": true,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:51:27.142Z"
+  },
+  {
+    "postId": "47573887",
+    "primaryTag": "story",
+    "postTitle": "Bird brains (2023)",
+    "postUrl": "https://news.ycombinator.com/item?id=47573887",
+    "postUps": 260,
+    "comment": "the article conflates impressive behaviors with human-like reasoning whichh is the same trap we fell into with dolphins. birds solve problems their brains evolved for not general intelligence tests designed by mammals a pigeon navigating home from 500 miles away would fail most \"intelligence\" benchmakrs we care about",
+    "wordCount": 48,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:51:27.142Z"
+  },
+  {
+    "postId": "47573887",
+    "primaryTag": "story",
+    "postTitle": "Bird brains (2023)",
+    "postUrl": "https://news.ycombinator.com/item?id=47573887",
+    "postUps": 260,
+    "comment": "my neighbor's crow dive-bombs me every trash day pretty sure that bird has a higher sustained grudge capacity than most silicon valley cofounders",
+    "wordCount": 23,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:51:27.143Z"
+  },
+  {
+    "postId": "47571376",
+    "primaryTag": "story",
+    "postTitle": "I use Excalidraw to manage my diagrams for my blog",
+    "postUrl": "https://news.ycombinator.com/item?id=47571376",
+    "postUps": 243,
+    "comment": "the frame export feature is clutch. way easier than manually cropping screenshots or dealing with artboards in proper design tools. curious if you've hit any quirks with text renderig across different browsers?",
+    "wordCount": 32,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:51:36.776Z"
+  },
+  {
+    "postId": "47571376",
+    "primaryTag": "story",
+    "postTitle": "I use Excalidraw to manage my diagrams for my blog",
+    "postUrl": "https://news.ycombinator.com/item?id=47571376",
+    "postUps": 243,
+    "comment": "we ended up building a github action that validates excalidraw files can actually export before merging. caught a few corrupted diagrams that would've broken docs builds. the json format makkes it easy to version control which is half the appeal anyway.",
+    "wordCount": 41,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:51:36.776Z"
+  },
+  {
+    "postId": "47571376",
+    "primaryTag": "story",
+    "postTitle": "I use Excalidraw to manage my diagrams for my blog",
+    "postUrl": "https://news.ycombinator.com/item?id=47571376",
+    "postUps": 243,
+    "comment": "excalidraw is great until your diagram has 50+ boxes and you're fighting the auto-layout for an hour. at some point you need proper constraints and alignment tools. the hand-drawn aesthetic doesn't age well in complex technical docs either.",
+    "wordCount": 38,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:51:36.777Z"
+  },
+  {
+    "postId": "47571376",
+    "primaryTag": "story",
+    "postTitle": "I use Excalidraw to manage my diagrams for my blog",
+    "postUrl": "https://news.ycombinator.com/item?id=47571376",
+    "postUps": 243,
+    "comment": "finally a blog post management system more complx than the actual blog content",
+    "wordCount": 13,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:51:36.777Z"
+  },
+  {
+    "postId": "47576861",
+    "primaryTag": "story",
+    "postTitle": "New Washington state law bans noncompete agreements",
+    "postUrl": "https://news.ycombinator.com/item?id=47576861",
+    "postUps": 243,
+    "comment": "interesting timing - california's ban has been in effect since the 70s and the tech ecosystem basically grew around it. wonder if we'll see more movement out of places like massachusetts now",
+    "wordCount": 32,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:51:48.166Z"
+  },
+  {
+    "postId": "47576861",
+    "primaryTag": "story",
+    "postTitle": "New Washington state law bans noncompete agreements",
+    "postUrl": "https://news.ycombinator.com/item?id=47576861",
+    "postUps": 243,
+    "comment": "worked at a startup where everyone had noncompetes and it was absurd. people would leave and basically ahve to sit out six months or switch industries entirely. the chilling effect was real - folks stayed in bad situations way too long just to avoid legal uncertainty.",
+    "wordCount": 46,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:51:48.167Z"
+  },
+  {
+    "postId": "47576861",
+    "primaryTag": "story",
+    "postTitle": "New Washington state law bans noncompete agreements",
+    "postUrl": "https://news.ycombinator.com/item?id=47576861",
+    "postUps": 243,
+    "comment": "the real problem isnt solved yet though. employers can still drag you through expensive litigation even if the agreement is uneforceable. unless there are penalties for filing frivolous suits, some companies will keep using these as intimidation tactics",
+    "wordCount": 38,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:51:48.167Z"
+  },
+  {
+    "postId": "47576861",
+    "primaryTag": "story",
+    "postTitle": "New Washington state law bans noncompete agreements",
+    "postUrl": "https://news.ycombinator.com/item?id=47576861",
+    "postUps": 243,
+    "comment": "finally engineers can leave their job at amazon ring doorbell to work on.. amazon blink doorbell what a time to be alive",
+    "wordCount": 22,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:51:48.167Z"
+  },
+  {
+    "postId": "47575403",
+    "primaryTag": "story",
+    "postTitle": "CodingFont: A game to help you pick a coding font",
+    "postUrl": "https://news.ycombinator.com/item?id=47575403",
+    "postUps": 221,
+    "comment": "the real problem is that every font looks perfect in the demo but awful when you're staring at a 300-line function at 2am trying to find a misplaced semicolon",
+    "wordCount": 29,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:52:02.067Z"
+  },
+  {
+    "postId": "47575403",
+    "primaryTag": "story",
+    "postTitle": "CodingFont: A game to help you pick a coding font",
+    "postUrl": "https://news.ycombinator.com/item?id=47575403",
+    "postUps": 221,
+    "comment": "tried this for 10 minutes and realized i've been using the saem font for 8 years and can't actually articulate why. muscle memory is real. switching fonts now feels like typing with glovess on, even if the new one tests better",
+    "wordCount": 41,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:52:02.067Z"
+  },
+  {
+    "postId": "47575403",
+    "primaryTag": "story",
+    "postTitle": "CodingFont: A game to help you pick a coding font",
+    "postUrl": "https://news.ycombinator.com/item?id=47575403",
+    "postUps": 221,
+    "comment": "this assumes rendering is consistent across editors and platforms, which it absolutely isn't. a font that looks crisp in vscode on macos can look completely different in terminal on linux. the game should let you test in actual coding contexts, not just isolated snippets",
+    "wordCount": 44,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:52:02.067Z"
+  },
+  {
+    "postId": "47575403",
+    "primaryTag": "story",
+    "postTitle": "CodingFont: A game to help you pick a coding font",
+    "postUrl": "https://news.ycombinator.com/item?id=47575403",
+    "postUps": 221,
+    "comment": "finally, a procrastination tool that makes me feel productive while avoiding actual work. \"can't start coding yet, still optimizing my font choice\"",
+    "wordCount": 22,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:52:02.067Z"
+  },
+  {
+    "postId": "47571279",
+    "primaryTag": "story",
+    "postTitle": "I am definitely missing the pre-AI writing era",
+    "postUrl": "https://news.ycombinator.com/item?id=47571279",
+    "postUps": 193,
+    "comment": "the real problem isnt ai writing, its that we've all forgotten how to tolerate awkward first drafts everything has to be polished now, which kills the thinking-through-writing process thta made blogs worth reading.",
+    "wordCount": 33,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:52:13.033Z"
+  },
+  {
+    "postId": "47571279",
+    "primaryTag": "story",
+    "postTitle": "I am definitely missing the pre-AI writing era",
+    "postUrl": "https://news.ycombinator.com/item?id=47571279",
+    "postUps": 193,
+    "comment": "i've been using llms for coding but banned them from prose after noticing my emails started sounding like customer support tickets. turns out there's no undo button for losing your own voice , you just hvae to write badly for a few weeks until it comes back.",
+    "wordCount": 47,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:52:13.033Z"
+  },
+  {
+    "postId": "47571279",
+    "primaryTag": "story",
+    "postTitle": "I am definitely missing the pre-AI writing era",
+    "postUrl": "https://news.ycombinator.com/item?id=47571279",
+    "postUps": 193,
+    "comment": "missing the point a bit. the pre-ai era had just as much lazy writing, we just had different tells (buzzfeed listicles, seo spam, corporate blog posts). the medium changes but ppl who don't want to think through their writing will always find a shortcut",
+    "wordCount": 44,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:52:13.033Z"
+  },
+  {
+    "postId": "47571279",
+    "primaryTag": "story",
+    "postTitle": "I am definitely missing the pre-AI writing era",
+    "postUrl": "https://news.ycombinator.com/item?id=47571279",
+    "postUps": 193,
+    "comment": "can't wait for the nostalgia cycle to hit \"i miss when ai writing was obviously bad\" in 2027.",
+    "wordCount": 18,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:52:13.033Z"
+  },
+  {
+    "postId": "47575616",
+    "primaryTag": "story",
+    "postTitle": "FTC action against Match and OkCupid for deceiving users, sharing personal data",
+    "postUrl": "https://news.ycombinator.com/item?id=47575616",
+    "postUps": 185,
+    "comment": "the real story is that okcupid handed nearly 3 million user photos to a facial recognition startup because the founders were investors no business relationship, just cozy cap table buddies helping each other out.",
+    "wordCount": 34,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:52:25.218Z"
+  },
+  {
+    "postId": "47575616",
+    "primaryTag": "story",
+    "postTitle": "FTC action against Match and OkCupid for deceiving users, sharing personal data",
+    "postUrl": "https://news.ycombinator.com/item?id=47575616",
+    "postUps": 185,
+    "comment": "i worked adjacent to dating apps for a bit and the data practices were worse than you'd think unique emails getting sold post-deletion was common. also saw a/b tests on pricing by gender, age, and zip code that would make an economist blush. regulatory capture means these settlements are years late and pennies light.",
+    "wordCount": 54,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 22,
+    "megallmFactors": [
+      "cost / infra angle",
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:52:25.218Z"
+  },
+  {
+    "postId": "47575616",
+    "primaryTag": "story",
+    "postTitle": "FTC action against Match and OkCupid for deceiving users, sharing personal data",
+    "postUrl": "https://news.ycombinator.com/item?id=47575616",
+    "postUps": 185,
+    "comment": "settlement doesn't require deletion of the training data or models built from those 3 million faces. so clarifai (or whoever they became) keeps whatever they learned. this is the new pattern: apologize pay nominal fine retain the actul value extracted from users who never consented",
+    "wordCount": 45,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 16,
+    "megallmFactors": [
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:52:25.219Z"
+  },
+  {
+    "postId": "47575616",
+    "primaryTag": "story",
+    "postTitle": "FTC action against Match and OkCupid for deceiving users, sharing personal data",
+    "postUrl": "https://news.ycombinator.com/item?id=47575616",
+    "postUps": 185,
+    "comment": "dating apps: where your face trains someone else's computer vision model and you don't even get a second date out of it.",
+    "wordCount": 22,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "fast point gain",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:52:25.219Z"
+  },
+  {
+    "postId": "47572771",
+    "primaryTag": "story",
+    "postTitle": "Mathematical methods and human thought in the age of AI",
+    "postUrl": "https://news.ycombinator.com/item?id=47572771",
+    "postUps": 176,
+    "comment": "terence tao spending a year writing about ai and math only for the field to move faster than his writing process is maybe the most on-the-nose illustration of the problem",
+    "wordCount": 30,
+    "optionNumber": 1,
+    "optionStyle": "direct/short",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:52:38.754Z"
+  },
+  {
+    "postId": "47572771",
+    "primaryTag": "story",
+    "postTitle": "Mathematical methods and human thought in the age of AI",
+    "postUrl": "https://news.ycombinator.com/item?id=47572771",
+    "postUps": 176,
+    "comment": "we've been trying to use llms for formal verification at work. the gap isnt generating proofs , its that mathematicians dont actually formalize most of their work, so theres no training corpus. the model cant learn what doesnt exist in machine-readable form. chicken and egg problem that better models wont solve alone",
+    "wordCount": 52,
+    "optionNumber": 2,
+    "optionStyle": "experience",
+    "isWitty": false,
+    "megallmScore": 16,
+    "megallmFactors": [
+      "technical hn relevance",
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:52:38.754Z"
+  },
+  {
+    "postId": "47572771",
+    "primaryTag": "story",
+    "postTitle": "Mathematical methods and human thought in the age of AI",
+    "postUrl": "https://news.ycombinator.com/item?id=47572771",
+    "postUps": 176,
+    "comment": "the paper worries about ai misunderstanding definitions (like zero in natural numbers) but that's exactly backkwards. humans are sloppy with context-dependent definitions and somehow maake it work formalizing everything to make it ai-legible might kill the productivity gains we're hoping for",
+    "wordCount": 41,
+    "optionNumber": 3,
+    "optionStyle": "pushback/caveat",
+    "isWitty": false,
+    "megallmScore": 7,
+    "megallmFactors": [
+      "hn-typical length"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:52:38.754Z"
+  },
+  {
+    "postId": "47572771",
+    "primaryTag": "story",
+    "postTitle": "Mathematical methods and human thought in the age of AI",
+    "postUrl": "https://news.ycombinator.com/item?id=47572771",
+    "postUps": 176,
+    "comment": "paper took over a year to write and is already outdated. at this rate we'll need ai just to keep up with papers about ai keeping up with papers",
+    "wordCount": 29,
+    "optionNumber": 4,
+    "optionStyle": "witty/hn",
+    "isWitty": true,
+    "megallmScore": 5,
+    "megallmFactors": [
+      "personality",
+      "hn karma"
+    ],
+    "viralPotential": "high",
+    "viralReasons": [
+      "strong early votes",
+      "busy thread",
+      "front-page level"
+    ],
+    "mentionsProduct": false,
+    "status": "draft",
+    "createdAt": "2026-03-30T20:52:38.754Z"
+  }
+]

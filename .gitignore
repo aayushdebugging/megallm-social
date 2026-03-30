@@ -1,0 +1,25 @@
+node_modules/
+.next/
+.env
+.env.local
+.env*.local
+*.backup-*
+
+# Pipeline state (local dev)
+.pipeline-state/
+.pipeline-drafts/
+.pipeline-reports/
+
+# Playwright auth cookies (contains login sessions!)
+src/scripts/auth/cookies/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Vercel
+.vercel/
