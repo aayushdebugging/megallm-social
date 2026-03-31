@@ -1,4 +1,4 @@
-// ─────────────────────────────────────────────────────────────
+                                                                                                                                                                                                                                                                                                                          // ─────────────────────────────────────────────────────────────
 // Unified dashboard: Reddit, Dev.to, Hacker News, Bluesky
 // Default login: admin@megallm.io / MegaLLM@SOCIAL (override with UNIFIED_ASSISTANT_*)
 // ─────────────────────────────────────────────────────────────
@@ -12,6 +12,7 @@ import { DRAFTS_FILE as REDDIT_DRAFTS, POSTS_FILE as REDDIT_POSTS } from "../red
 import { DRAFTS_FILE as DEVTO_DRAFTS, POSTS_FILE as DEVTO_POSTS } from "../devto-assistant/paths.js";
 import { DRAFTS_FILE as HN_DRAFTS, POSTS_FILE as HN_POSTS } from "../hackernews-assistant/paths.js";
 import { DRAFTS_FILE as BSKY_DRAFTS, POSTS_FILE as BSKY_POSTS } from "../bluesky-assistant/paths.js";
+import { DRAFTS_FILE as X_DRAFTS, TWEETS_FILE as X_TWEETS } from "../x-assistant/paths.js";
 
 import { fetchAllPosts } from "../reddit-assistant/fetch-posts.js";
 import { draftComments as draftReddit } from "../reddit-assistant/draft-comments.js";
@@ -21,6 +22,8 @@ import { fetchAllStories } from "../hackernews-assistant/fetch-stories.js";
 import { draftComments as draftHn } from "../hackernews-assistant/draft-comments.js";
 import { fetchBlueskyFeed } from "../bluesky-assistant/fetch-feed.js";
 import { draftComments as draftBluesky } from "../bluesky-assistant/draft-comments.js";
+import { fetchAllTweets } from "../x-assistant/fetch-tweets.js";
+import { draftComments as draftX } from "../x-assistant/draft-comments.js";
 
 const AUTH_USER = process.env.UNIFIED_ASSISTANT_USER ?? "admin@megallm.io";
 const AUTH_PASS = process.env.UNIFIED_ASSISTANT_PASSWORD ?? "MegaLLM@SOCIAL";
@@ -80,6 +83,19 @@ const PLATFORMS = {
     badge: (t) => String(t || ""),
     pointsLabel: "♥",
   },
+  x: {
+    label: "X (Twitter)",
+    draftsFile: X_DRAFTS,
+    postsFile: X_TWEETS,
+    fetch: fetchAllTweets,
+    draft: draftX,
+    fetchBtn: "Fetch tweets",
+    draftBtn: "Draft replies (3 / tweet)",
+    cacheLabel: "Tweets cached",
+    fetchedTab: "Fetched tweets",
+    badge: (t) => `@${t}`,
+    pointsLabel: "❤",
+  },
 };
 
 function normalizeCacheItem(platform, row) {
@@ -91,6 +107,16 @@ function normalizeCacheItem(platform, row) {
       primaryTag: row.subreddit,
       ups: row.ups,
       numComments: row.numComments,
+    };
+  }
+  if (platform === "x") {
+    return {
+      id: String(row.id),
+      title: row.text || "",
+      url: row.url || `https://x.com/${row.authorUsername}/status/${row.id}`,
+      primaryTag: row.authorUsername,
+      ups: row.likes || 0,
+      numComments: row.replies || 0,
     };
   }
   return {
@@ -252,6 +278,7 @@ const THEME = {
   devto: { accent: "#3b49df", accent2: "#5c6ef5", bg: "#0a0a0a" },
   hn: { accent: "#ff6600", accent2: "#ff8533", bg: "#0f0f0f" },
   bluesky: { accent: "#0085ff", accent2: "#4dabf7", bg: "#0a0a0a" },
+  x: { accent: "#1da1f2", accent2: "#3b82f6", bg: "#0a0a0a" },
 };
 
 app.get("/", (_req, res) => {
@@ -441,11 +468,18 @@ function renderFetchedPanel(){
   }
   const pl=meta.pointsLabel;
   const rows=cached.map(function(a){
-    return '<div class="fetch-row"><a href="'+esc(a.url)+'" target="_blank" rel="noopener">'+esc(a.title)+'</a>'+
+    // Handle different data structures for different platforms
+    const title = a.title || a.text; // X uses text, others use title
+    const url = a.url || a.link; // Twitter uses url/link
+    const tag = a.primaryTag || a.subreddit || a.authorUsername; // X uses authorUsername
+    const points = a.ups || a.likes || 0; // X uses likes, others use ups
+    const comments = a.numComments || a.replies || 0; // X uses replies
+    
+    return '<div class="fetch-row"><a href="'+esc(url)+'" target="_blank" rel="noopener">'+esc(title)+'</a>'+
       '<div class="badges" style="flex-shrink:0">'+
-      '<span class="badge b-sub">'+badgeHtml(a.primaryTag)+'</span>'+
-      '<span class="badge b-ups">'+(a.ups||0)+' '+esc(pl)+'</span>'+
-      '<span class="badge b-low">'+(a.numComments||0)+' cmt</span></div></div>';
+      '<span class="badge b-sub">'+badgeHtml(tag)+'</span>'+
+      '<span class="badge b-ups">'+points+' '+esc(pl)+'</span>'+
+      '<span class="badge b-low">'+comments+' cmt</span></div></div>';
   }).join('');
   el.innerHTML='<div class="fetched-panel"><div class="fetched-panel-h"><span>Cached feed</span><span class="l">data/posts.json</span><span class="badge b-ups">'+cached.length+'</span></div><div class="fetched-panel-body">'+rows+'</div></div>';
 }
@@ -476,11 +510,18 @@ function renderFetched(){
   }
   const pl=PL[platform].pointsLabel;
   const rows=cached.map(function(a){
-    return '<div class="fetch-row"><a href="'+esc(a.url)+'" target="_blank" rel="noopener">'+esc(a.title)+'</a>'+
+    // Handle different data structures for different platforms
+    const title = a.title || a.text; // X uses text, others use title
+    const url = a.url || a.link; // Twitter uses url/link
+    const tag = a.primaryTag || a.subreddit || a.authorUsername; // X uses authorUsername
+    const points = a.ups || a.likes || 0; // X uses likes, others use ups
+    const comments = a.numComments || a.replies || 0; // X uses replies
+    
+    return '<div class="fetch-row"><a href="'+esc(url)+'" target="_blank" rel="noopener">'+esc(title)+'</a>'+
       '<div class="badges" style="flex-shrink:0">'+
-      '<span class="badge b-sub">'+badgeHtml(a.primaryTag)+'</span>'+
-      '<span class="badge b-ups">'+(a.ups||0)+' '+esc(pl)+'</span>'+
-      '<span class="badge b-low">'+(a.numComments||0)+' comments</span></div></div>';
+      '<span class="badge b-sub">'+badgeHtml(tag)+'</span>'+
+      '<span class="badge b-ups">'+points+' '+esc(pl)+'</span>'+
+      '<span class="badge b-low">'+comments+' comments</span></div></div>';
   }).join('');
   document.getElementById('content').innerHTML='<div class="post-group" style="margin-bottom:10px"><div class="post-header"><span style="font-size:12px;color:#888">'+cached.length+' cached</span></div></div>'+rows;
 }
