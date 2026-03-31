@@ -10,7 +10,7 @@ export const CONFIG = {
   // MegaLLM API (for drafting replies)
   apiKey: process.env.MEGALLM_API_KEY || "",
   apiBaseUrl: process.env.MEGALLM_BASE_URL || "https://ai.megallm.io/v1",
-  model: process.env.MODEL || "claude-sonnet-4-5-20250929",
+  model: process.env.MODEL || "claude-sonnet-4-6",
 
   product: {
     name: "MegaLLM",
