@@ -3,6 +3,7 @@
 // Intelligently selects search queries based on audience analysis
 // Target: AI developers, LLM users, API enthusiasts
 // Competitors: OpenRouter, Groq, TogetherAI, Anthropic, OpenAI
+// Language: ENGLISH ONLY (no Chinese, Arabic, or other non-English content)
 // ─────────────────────────────────────────────────────────────
 
 export const ORCHESTRATION = {
@@ -56,6 +57,7 @@ export const ORCHESTRATION = {
     minFaves: 5,              // Minimum 5 likes for quality
     minReplies: 0,            // Any reply count
     minRetweets: 0,           // Don't filter retweets
+    languageOnly: "en",       // ENGLISH ONLY - excludes Chinese, Arabic, etc.
   },
 
   // Execution Strategy

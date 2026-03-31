@@ -8,6 +8,28 @@ import { CONFIG, validateXScraperApi } from "./config.js";
 import { readFile, writeFile, mkdir } from "fs/promises";
 import { DATA_DIR, TWEETS_FILE } from "./paths.js";
 
+// Detect if text is primarily English
+function isEnglishText(text) {
+  if (!text) return false;
+  
+  // Common English words
+  const englishWords = /\b(the|and|or|a|an|is|are|to|for|of|in|that|this|with|from|by|about|at|be|was|were|have|has|do|does|did|can|could|will|would|should|may|might|must)\b/gi;
+  
+  // Script detection - reject primarily non-Latin scripts
+  const latinChars = (text.match(/[a-zA-Z]/g) || []).length;
+  const totalChars = text.length;
+  const latinRatio = latinChars / totalChars;
+  
+  // If less than 30% Latin chars, likely not English
+  if (latinRatio < 0.3) return false;
+  
+  // Check for common English word patterns
+  const englishMatches = (text.match(englishWords) || []).length;
+  
+  // Consider it English if it has reasonable Latin ratio and some English words
+  return latinRatio > 0.3 || englishMatches > 2;
+}
+
 async function searchTweets(query, maxResults = 100) {
   const url = new URL(`${CONFIG.xScraperApiUrl}/api/search`);
   url.searchParams.set("q", query);
@@ -36,8 +58,15 @@ async function searchTweets(query, maxResults = 100) {
       .filter((tweet) => {
         const likes = tweet.likes || tweet.stats?.likes || 0;
         const replies = tweet.stats?.replies || 0;
+        const text = tweet.content || tweet.text || "";
+        
+        // Quality filters
         if (likes < CONFIG.tweets.minLikes) return false;
         if (replies < CONFIG.tweets.minReplies) return false;
+        
+        // Language filter - ENGLISH ONLY
+        if (!isEnglishText(text)) return false;
+        
         return true;
       })
       .map((tweet) => {
