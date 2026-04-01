@@ -1,6 +1,6 @@
 # automating_advertisement
 
-**Primary workflow:** **unified engagement UI** + **`tools/*-assistants`** (Reddit, Dev.to, Hacker News, Bluesky). One root `package.json` — `npm install` once.
+**Primary workflow:** **unified engagement UI** + **`tools/*-assistants`** (Reddit, Dev.to, Hacker News, Bluesky, X). One root `package.json` — `npm install` once.
 
 ## Unified dashboard (recommended)
 

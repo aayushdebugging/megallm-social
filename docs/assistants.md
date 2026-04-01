@@ -26,6 +26,8 @@ npm run assistant:unified
 | `npm run assistant:devto:test` | Config check |
 | `npm run assistant:hn` | Standalone HN dashboard (3458) |
 | `npm run assistant:hn:fetch` / `:draft` / `:test` | HN CLI |
+| `npm run assistant:x` | Standalone X (Twitter) dashboard (3459) |
+| `npm run assistant:x:fetch` / `:draft` | X CLI |
 | `npm run assistant:bluesky:fetch` / `:draft` | Bluesky CLI (no extra deps) |
 
 Default ports are set in each assistant’s `config.js` / `server.js` if you run the standalone servers.

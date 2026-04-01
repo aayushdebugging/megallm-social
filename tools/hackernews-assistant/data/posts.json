@@ -1,133 +1,1117 @@
 [
   {
-    "id": "47577761",
+    "id": "47589818",
     "primaryTag": "story",
-    "title": "Fedware: Government apps that spy harder than the apps they ban",
+    "title": "Cohere Transcribe: Speech Recognition",
     "description": "",
-    "url": "https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/",
-    "ups": 147,
-    "numComments": 33,
-    "createdUtc": 1774894560,
+    "url": "https://cohere.com/blog/transcribe",
+    "ups": 75,
+    "numComments": 19,
+    "createdUtc": 1774974422,
+    "isQuestion": false,
+    "by": "gmays",
+    "topComments": [
+      {
+        "body": "My worry is that ASR will end up like OCR. If the multi modal large AI system is good enough (latency wise), the advantage of domain understanding eats the other technlogies alive. In OCR, even when the characters are poorly scanned, the deep domain understanding these large multi modal AIs have allows it to understand what the document actually meant - this is going to be order id because in the million invoices I have seen before order id is no",
+        "ups": 0,
+        "author": "dinakernel"
+      },
+      {
+        "body": "&gt; Limitations &gt;Timestamps Speaker diarization. The model does not feature either of these. What a shame. Is whisperx still the best choice if you want timestamps diarization?",
+        "ups": 0,
+        "author": "gruez"
+      },
+      {
+        "body": "Just today I shipped support for this in Whisper Memos: https: whispermemos.com changelog 2026-04-cohere-transcribe Accurate and fast model, very happy with it so far!",
+        "ups": 0,
+        "author": "Void_"
+      },
+      {
+        "body": "Dumb question, but if this is &quot;open source&quot; is there source code somewhere? Or does that term mean something different in the world of models that must be trained to be useful?",
+        "ups": 0,
+        "author": "teach"
+      },
+      {
+        "body": "I can t say enough nice things about Cohere s services. I migrated over to their embedding model a few months ago for clip-style embeddings and it s been fantastic. It has the most crisp, steady P50 of any external service I ve used in a long time.",
+        "ups": 0,
+        "author": "geooff_"
+      },
+      {
+        "body": "How hard could it be to train other European language(-s)?",
+        "ups": 0,
+        "author": "topazas"
+      }
+    ]
+  },
+  {
+    "id": "47586614",
+    "primaryTag": "story",
+    "title": "Open source CAD in the browser (Solvespace)",
+    "description": "",
+    "url": "https://solvespace.com/webver.pl",
+    "ups": 191,
+    "numComments": 57,
+    "createdUtc": 1774961423,
+    "isQuestion": false,
+    "by": "phkahler",
+    "topComments": [
+      {
+        "body": "SolveSpace is a wonderfully different take on parametric CAD, but development has really slowed, and it seems fundamentally incapable of some pretty rudimentary features (like chamfers[0]). Dune 3D[1] seems like a pretty effective spiritual successor. 0: https: github.com solvespace solvespace issues 149 1: https: dune3d.org",
+        "ups": 0,
+        "author": "MrDOS"
+      },
+      {
+        "body": "I’ve wondered how feasible it would be to start building browser-based CAD design products to replace our expensive and poorly supported paid plugins and niche products. Seems promising!",
+        "ups": 0,
+        "author": "GorbachevyChase"
+      },
+      {
+        "body": "I ve been using FreeCad more and more, but solvespace has been a great, lightweight tool to design parts for laser cutting by SendCutSend Oshcut. Neat that they got it working in the browser.",
+        "ups": 0,
+        "author": "masonhensley"
+      },
+      {
+        "body": "Here s my take on CAD in the browser! https: vcad.io I implemented a full kernel in rust and compile it to wasm https: github.com ecto vcad",
+        "ups": 0,
+        "author": "ecto"
+      },
+      {
+        "body": "Impressive work! Minor nit: why does the rendered in-window text use a really awful pixelated font? It looks like what happens when a font gets rendered onto a pixel grid without any hinting or snapping.",
+        "ups": 0,
+        "author": "JoshTriplett"
+      },
+      {
+        "body": "Does this use its own backend engine? I ve been working on LLM to CAD tool[0] and have realised there are so many backends and options to choose from. Since the realisation I m trying to find the best representation for an LLM. I think OpenSCAD is currently the best and most feature complete choice, but I definitely need to dig a bit deeper. If anyone has any pointers I welcome them! [0]: https: GrandpaCAD.com",
+        "ups": 0,
+        "author": "ponyous"
+      }
+    ]
+  },
+  {
+    "id": "47586778",
+    "primaryTag": "story",
+    "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
+    "description": "",
+    "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
+    "ups": 24,
+    "numComments": 2,
+    "createdUtc": 1774962270,
+    "isQuestion": false,
+    "by": "alex000kim",
+    "topComments": [
+      {
+        "body": "&gt;Claude Code also uses Axios for HTTP. Interesting based on the other news that is out.",
+        "ups": 0,
+        "author": "pixl97"
+      }
+    ]
+  },
+  {
+    "id": "47541746",
+    "primaryTag": "show",
+    "title": "Show HN: Forkrun – NUMA-aware shell parallelizer (50×–400× faster than parallel)",
+    "description": "",
+    "url": "https://github.com/jkool702/forkrun",
+    "ups": 33,
+    "numComments": 6,
+    "createdUtc": 1774613540,
+    "isQuestion": false,
+    "by": "jkool702",
+    "topComments": [
+      {
+        "body": "Generally when I want to run something with so much parallelism I just write a small Go program instead, and let Go s runtime handle the scheduling. It works remarkably well and there s no execve() overhead too",
+        "ups": 0,
+        "author": "nasretdinov"
+      },
+      {
+        "body": "Hi HN, Have you ever run GNU Parallel on a powerful machine just to find one core pegged at 100% while the rest sit mostly idle? I hit that wall...so I built forkrun. forkrun is a self-tuning, drop-in replacement for GNU Parallel (and xargs -P) designed for high-frequency, low-latency shell workloads on modern and NUMA hardware (e.g., log processing, text transforms, HPC data prep pipelines). On my 14-core 28-thread i9-7940x it achieves: - 200,00",
+        "ups": 0,
+        "author": "jkool702"
+      }
+    ]
+  },
+  {
+    "id": "47583959",
+    "primaryTag": "story",
+    "title": "Accidentally created my first fork bomb with Claude Code",
+    "description": "",
+    "url": "https://www.droppedasbaby.com/posts/2602-01/",
+    "ups": 19,
+    "numComments": 1,
+    "createdUtc": 1774942818,
+    "isQuestion": false,
+    "by": "offbyone42",
+    "topComments": [
+      {
+        "body": "Congratulations! Mine was intentional, back in college, where all PCs had open telnet in order to facilitate cooperation. We discovered it was easy to seize someone s computer for a while, and then watch them look around for the culprit, which we thought was hilarious. Boy were we annoying.",
+        "ups": 0,
+        "author": "ihaveajob"
+      }
+    ]
+  },
+  {
+    "id": "47587953",
+    "primaryTag": "story",
+    "title": "Good code will still win",
+    "description": "",
+    "url": "https://www.greptile.com/blog/ai-slopware-future",
+    "ups": 31,
+    "numComments": 53,
+    "createdUtc": 1774967546,
+    "isQuestion": false,
+    "by": "dakshgupta",
+    "topComments": [
+      {
+        "body": "I find most developers fall into one of two camps: 1. You treat your code as a means to an end to make a product for a user. 2. You treat the code itself as your craft, with the product being a vector for your craft. The people who typically have the most negative things to say about AI fall into camp #2 where AI is automating a large part of what they considered their art while enabling people in group #1 to iterate on their product faster. Pers",
+        "ups": 0,
+        "author": "seamossfet"
+      },
+      {
+        "body": "Meanwhile, the complexity of the average piece of software is drastically increasing. ... The stats suggest that devs are shipping more code with coding agents. The consequences may already be visible: analysis of vendor status pages [3] shows outages have steadily increased since 2022, suggesting software is becoming more brittle. We ve already seen a large-scale AWS outage because of this. It could get much worse. In a few years, we could have ",
+        "ups": 0,
+        "author": "Animats"
+      },
+      {
+        "body": "If &quot;good code&quot; == &quot;useful code&quot;, then yes. People forget that good engineering isn t &quot;the strongest bridge&quot;, but the cheapest bridge that just barely won t fail under conditions.",
+        "ups": 0,
+        "author": "xnx"
+      },
+      {
+        "body": "I wish I could write beautiful good code, every part of me wants it, but I m forced to deliver as fast as I can.",
+        "ups": 0,
+        "author": "personality1"
+      },
+      {
+        "body": "Why build each new airplane with the care and precision of a Rolls-Royce? In the early 1970s, Kelly Johnson and I [Ben Rich] had dinner in Los Angeles with the great Soviet aerodynamicist Alexander Tupolev, designer of their backfire Bear bomber. You Americans build airplanes like a Rolex watch, he told us. Knock it off the night table and it stops ticking. We build airplanes like a cheap alarm clock. But knock it off the table and still it wakes",
+        "ups": 0,
+        "author": "reese_john"
+      },
+      {
+        "body": "The background pattern really makes it hard to read, just fyi. I d make the content have a white bg if you absolutely must use the pattern.",
+        "ups": 0,
+        "author": "ezekg"
+      }
+    ]
+  },
+  {
+    "id": "47558733",
+    "primaryTag": "story",
+    "title": "From 300KB to 69KB per Token: How LLM Architectures Solve the KV Cache Problem",
+    "description": "",
+    "url": "https://news.future-shock.ai/the-weight-of-remembering/",
+    "ups": 21,
+    "numComments": 1,
+    "createdUtc": 1774737743,
+    "isQuestion": false,
+    "by": "future-shock-ai",
+    "topComments": [
+      {
+        "body": "Unrelated, but 69KB is how much RAM Voyager 1 has.",
+        "ups": 0,
+        "author": "az09mugen"
+      }
+    ]
+  },
+  {
+    "id": "47588349",
+    "primaryTag": "story",
+    "title": "GitHub Monaspace Case Study",
+    "description": "",
+    "url": "https://lettermatic.com/custom/monaspace-case-study",
+    "ups": 69,
+    "numComments": 22,
+    "createdUtc": 1774969295,
+    "isQuestion": false,
+    "by": "homebrewer",
+    "topComments": [
+      {
+        "body": "I like the way the problem of &quot;m&quot; is solved by Ubuntu Mono: https: fonts.google.com specimen Ubuntu+Mono It s what I landed on after completing the Coding Font game submitted to HN yesterday: https: news.ycombinator.com item?id=47575403",
+        "ups": 0,
+        "author": "evanjrowley"
+      },
+      {
+        "body": "I do like these fonts, but DJR had this idea with the (excellent) Input family of fonts years ago: https: input.djr.com A bit weird to not mention that. Unfortunately until editors start supporting this (and I’m not sure what would motivate them to), these remain great ideas only.",
+        "ups": 0,
+        "author": "endunless"
+      },
+      {
+        "body": "When I saw the Monaspace family linked in a HN frontpage some time ago, I installed the whole family, and now my terminal font is Monaspace Neon. I also type my LaTeX code in Monaspace Argon. They won me over Iosevka.",
+        "ups": 0,
+        "author": "sombragris"
+      },
+      {
+        "body": "I decided to try using proportional fonts for coding starting a year or two back. It worked out well and I stuck with it, because proportional text is easier for me to read on the whole, and because it allowed more characters to fit comfortably on each line on average. I did find after a while that occasionally the lack of alignment between characters on two subsequent lines was a problem, but then I configured my editor so that it showed comment",
+        "ups": 0,
+        "author": "ben_pfaff"
+      },
+      {
+        "body": "I really like Monaspace Argon, but even the narrower option looks too wide on my terminal (kitty on macos)",
+        "ups": 0,
+        "author": "ferd"
+      },
+      {
+        "body": "Very useful to mix and match various fonts based on semantics. I have a problem with Radon s l though, to me it reads like chumiZy and xenoZith. I don t understand how this could have slipped through, I can t be the only one being constantly confused.",
+        "ups": 0,
+        "author": "exceptione"
+      }
+    ]
+  },
+  {
+    "id": "47582482",
+    "primaryTag": "story",
+    "title": "Ollama is now powered by MLX on Apple Silicon in preview",
+    "description": "",
+    "url": "https://ollama.com/blog/mlx",
+    "ups": 566,
+    "numComments": 287,
+    "createdUtc": 1774928445,
+    "isQuestion": false,
+    "by": "redundantly",
+    "topComments": [
+      {
+        "body": "On-device models are the future. Users prefer them. No privacy issues. No dealing with connectivity, tokens, or changes to vendors implementations. I have an app using Foundation Model, and it works great. I only wish I could backport it to pre macOS 26 versions.",
+        "ups": 0,
+        "author": "abu_ameena"
+      },
+      {
+        "body": "I created &quot;apfel&quot; https: github.com Arthur-Ficial apfel a CLI for the apple on-device local foundation model (Apple intelligence) yeah its super limited with its 4k context window and super common false positives guardrails (just ask it to describe a color) ... bit still ... using it in bash scripts that just work without calling home out or incurring extra costs feels super powerful.",
+        "ups": 0,
+        "author": "franze"
+      },
+      {
+        "body": "LLMs on device is the future. It s more secure and solves the problem of too much demand for inference compared to data center supply, it also would use less electricity. It s just a matter of getting the performance good enough. Most users don t need frontier model performance.",
+        "ups": 0,
+        "author": "babblingfish"
+      },
+      {
+        "body": "Good to see Ollama is catching up with the times for inference on Mac. MLX powered inference makes a big difference, especially on M5 as their graphs point out. What really has been a game changer for my workflow is using https: omlx.ai that has SSD KV cold caching. No longer have to worry about a session falling out of memory and needing to prefill again. Combine that with the M5 Max prefill speed means more time is spend on generation than wait",
+        "ups": 0,
+        "author": "Yukonv"
+      },
+      {
+        "body": "What is the cheapest usable local rig for coding ? I dont want fancy agents and such, but something purpose built for coders, and fast-enough for my use, and open-source, so I can tweak it to my liking. Things are moving fast, and I am hesitant to put in 3-4K now in the hope that it would be cheaper if i wait.",
+        "ups": 0,
+        "author": "bwfan123"
+      },
+      {
+        "body": "Why are people still using Ollama? Serious. Lemonade or even llama.cpp are much better optimised and arguably just as easy to use.",
+        "ups": 0,
+        "author": "robotswantdata"
+      }
+    ]
+  },
+  {
+    "id": "47585974",
+    "primaryTag": "story",
+    "title": "Combinators",
+    "description": "",
+    "url": "https://tinyapl.rubenverg.com/docs/info/combinators",
+    "ups": 105,
+    "numComments": 29,
+    "createdUtc": 1774957743,
+    "isQuestion": false,
+    "by": "tosh",
+    "topComments": [
+      {
+        "body": "Could somebody provide a bit of context on what exactly this is? It seems interesting, but I have no idea what I am looking at.",
+        "ups": 0,
+        "author": "siruwastaken"
+      },
+      {
+        "body": "(Show HN?) There is a deep and lovely connection between the Y-combinator and the classic version of Godel s incompleteness theorem: https: gregfjohnson.com incompleteness",
+        "ups": 0,
+        "author": "gregfjohnson"
+      },
+      {
+        "body": "omega and y are missing buddy! I was so looking forward to having them represented in APL",
+        "ups": 0,
+        "author": "cat-whisperer"
+      },
+      {
+        "body": "The logical combinators that I know all have definitions in the untyped lambda calculus. Is there a typed variant of logical combinators?",
+        "ups": 0,
+        "author": "pklausler"
+      },
+      {
+        "body": "I wish universal and eternal patterns like this were studied more often in software engineering. Perhaps we would have a chance in hell of finding canonical representations of common structures and even programs instead of basket weaving majors fucking reinventing the wheel every 5 minutes with yet another half-baked poorly understood Python or JavaScript instantiation of a common pattern. Imagine still writing for loops and munging indices inste",
+        "ups": 0,
+        "author": "rdevilla"
+      },
+      {
+        "body": "A bit of an aside: I wonder how much array-oriented languages like APL and J would benefit from being implemented on top of an interaction net machine?",
+        "ups": 0,
+        "author": "ux266478"
+      }
+    ]
+  },
+  {
+    "id": "47555273",
+    "primaryTag": "story",
+    "title": "Audio tapes reveal mass rule-breaking in Milgram's obedience experiments",
+    "description": "",
+    "url": "https://www.psypost.org/audio-tapes-reveal-mass-rule-breaking-in-milgram-s-obedience-experiments-2026-03-26/",
+    "ups": 153,
+    "numComments": 91,
+    "createdUtc": 1774710502,
+    "isQuestion": false,
+    "by": "lentoutcry",
+    "topComments": [
+      {
+        "body": "To be clear, this doesn t seem like it invalidates anything in the original experiment. The &quot;rule-breaking&quot; isn t referring to anything the researchers were doing. It s referring to what the participants were doing. It points out that the compliant subjects who delivered the shocks weren t always following the procedure they were given perfectly. Which is, of course, expected, since people in general don t follow instructions 100% perfe",
+        "ups": 0,
+        "author": "crazygringo"
+      },
+      {
+        "body": "If you read Gina Perry’s critique, her conclusions is that fewer than half of the participants thought it was real. These were Yale students, so probably smarter than average, and the study didn’t do a very convincing job make it seem believable from what I’ve read. When I took psychology in college I had to submit to random experiments to as part of my grade (there were alternatives but the experiments were easier). Before I’d ever heard of Milg",
+        "ups": 0,
+        "author": "sarchertech"
+      },
+      {
+        "body": "Interesting. If we can assume the experimenter s failure to enforce the rules was mere clumsiness or incompetence, rather than an indicator of underlying intentional manipulation of the experimental conditions à la Stanford prison experiment, this can be interpreted in many different ways. The (eventually) disobedient subjects were better at respecting the experimental process they were given than the &quot;obedient&quot; ones who went all the wa",
+        "ups": 0,
+        "author": "Mordisquitos"
+      },
+      {
+        "body": "&gt; By staying silent and letting the memory study fall apart, the experimenter allowed an atmosphere of illegitimate violence to flourish. Many people are cruel. Not all people, maybe; not most people, also maybe; but some people enjoy hurting others. We see this everywhere. Isn t it possible that this kind of profile jumped on the occasion to inflict pain on people with no fear of repercussions? In other words, isn t this study just a sort fil",
+        "ups": 0,
+        "author": "bambax"
+      },
+      {
+        "body": "It raises the point that if the results are questionable, why not just repeat the experiment? Here is Derren Brown s attempt at repeating the experiment: https: www.youtube.com watch?v=Xxq4QtK3j0Y",
+        "ups": 0,
+        "author": "jdawg777"
+      },
+      {
+        "body": "&gt; With the scientific elements either forgotten or rushed, the laboratory changed into a setting for unauthorized and senseless violence. &gt; The study authors propose that the experimenter played a major, passive role in establishing this dynamic. When the participants broke the rules and skipped steps, the authority figure rarely intervened to correct them or pause the session. By staying silent and letting the memory study fall apart, the ",
+        "ups": 0,
+        "author": "dlev_pika"
+      }
+    ]
+  },
+  {
+    "id": "47587631",
+    "primaryTag": "story",
+    "title": "RubyGems Fracture Incident Report",
+    "description": "",
+    "url": "https://rubycentral.org/news/rubygems-fracture-incident-report/",
+    "ups": 56,
+    "numComments": 10,
+    "createdUtc": 1774966117,
+    "isQuestion": false,
+    "by": "schneems",
+    "topComments": [
+      {
+        "body": "I can see a lot of time was put into the report, and it helps to have the detail, but in my mind it glosses over one of the most important parts: The dispute in the stewardship of the bundler and rubygems open-source projects. As I understand it, Ruby Central controlled the rubygems and bundler github organizations, but did not &quot;own&quot; the projects in the traditional sense - the individual contributers have copyright on the code, and pote",
+        "ups": 0,
+        "author": "matharmin"
+      },
+      {
+        "body": "this is a good write up, I hope this really helps put the whole mess to rest.",
+        "ups": 0,
+        "author": "riffraff"
+      },
+      {
+        "body": "This incident involved many people over a rather long time scale, and it was important to detangle how people perceived events from how they actually unfolded. The subject matter is deeply subjective, and multiple failed attempts at writing this doc came as a result of aiming for objectivity, for blameless representation. Therefore, those named in this report are: - Full-time employees of Ruby Central - Part-time consultants who were involved in ",
+        "ups": 0,
+        "author": "mpalmer"
+      },
+      {
+        "body": "This is a disappointing look for Ruby Central. I have to get back to work, but their retroactive framing that Andre and Samuel s work on RV justified Ruby Central s subsequent actions is contradicted by their own admissions. By their own admission, André is a contractor to Ruby Central. Contractors, especially under California law, have no contractual obligation of confidentiality to the other party unless there s a pre-existing agreement in plac",
+        "ups": 0,
+        "author": "thramp"
+      }
+    ]
+  },
+  {
+    "id": "47589370",
+    "primaryTag": "story",
+    "title": "Securing Elliptic Curve Cryptocurrencies Against Quantum Vulnerabilities [pdf]",
+    "description": "",
+    "url": "https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf",
+    "ups": 15,
+    "numComments": 8,
+    "createdUtc": 1774972829,
+    "isQuestion": false,
+    "by": "jandrewrogers",
+    "topComments": [
+      {
+        "body": "Is there any field with as big of gap between theory and experiment than QC? You read papers like this and think they will be harvesting all Satoshi s coins in a couple years and then you remember that nobody has even factored 21 yet on a real quantum computer.",
+        "ups": 0,
+        "author": "int32_64"
+      },
+      {
+        "body": "Here s an interesting discussion from Section 8 - Dormant Wallets: If a nation state develops a sufficiently powerful quantum computer. Seizure of the Satoshi-era bitcoin wallets without post quantum protections would fund either rogue actors or nation states. &gt; Indeed, some governments will have the option of using CRQCs (or paying a bounty to companies) to acquire these assets (possibly to burn them by sending them to the unspendable OP RETU",
+        "ups": 0,
+        "author": "jryio"
+      },
+      {
+        "body": "I can t think of a less useful avenue of research in cryptography right now.",
+        "ups": 0,
+        "author": "SrslyJosh"
+      },
+      {
+        "body": "Code is law doesn t exclude quantum code.",
+        "ups": 0,
+        "author": "gosub100"
+      },
+      {
+        "body": "Call me when they have broken ECC with a real quantum computer.",
+        "ups": 0,
+        "author": "meling"
+      }
+    ]
+  },
+  {
+    "id": "47587866",
+    "primaryTag": "story",
+    "title": "Microsoft: Copilot is for entertainment purposes only",
+    "description": "",
+    "url": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/termsofuse",
+    "ups": 230,
+    "numComments": 86,
+    "createdUtc": 1774967137,
+    "isQuestion": false,
+    "by": "lpcvoid",
+    "topComments": [
+      {
+        "body": "Anthropic does a somewhat similar thing. If you visit their ToS (the one for Max Pro plans) from a European IP address, they replace one section with this: Non-commercial use only. You agree not to use our Services for any commercial or business purposes and we (and our Providers) have no liability to you for any loss of profit, loss of business, business interruption, or loss of business opportunity. It s funny that a plan called &quot;Pro&quot;",
+        "ups": 0,
+        "author": "wowoc"
+      },
+      {
+        "body": "Lawyers are playing Calvinball again. I have no idea why the law finds this kind of argumentation compelling. &quot;I clearly intentionally deceived, but I stashed some bullshit legalese into a document no one will read so my deception is completely OK.&quot;",
+        "ups": 0,
+        "author": "everdrive"
+      },
+      {
+        "body": "As far as I can tell, this is only for the free personal plan, not any of the business offerings (ie not Copilot for M365) and Github Copilot is under a separate set of terms. “These Terms don’t apply to Microsoft 365 Copilot apps or services unless that specific app or service says that these Terms apply.” Think of Copilot being a suite of different products under the same overall banner and it starts to make (a bit) more sense.",
+        "ups": 0,
+        "author": "owenm"
+      },
+      {
+        "body": "I can hear the lawyers huddled around a conference table rolling the bones and chanting the sacred words to come up with that &quot;get out of trouble free&quot; card. It told your son he had terminal cancer and should kill himself... sorry, it clearly says for Entertainment Purposes only.",
+        "ups": 0,
+        "author": "jeffwask"
+      },
+      {
+        "body": "FYI: This is only for the &quot;Cortana replacement&quot; Copilot, not the other Copilots. This language doesn t appear in GitHub Copilot s Consumer Agreement, for example.",
+        "ups": 0,
+        "author": "nunez"
+      },
+      {
+        "body": "The section titled &gt; IMPORTANT DISCLOSURES &amp; WARNINGS Tells us: &gt; You may stop using Copilot at any time. That s an odd thing to include in a ToS.",
+        "ups": 0,
+        "author": "sgbeal"
+      }
+    ]
+  },
+  {
+    "id": "47556076",
+    "primaryTag": "story",
+    "title": "What major works of literature were written after age of 85? 75? 65?",
+    "description": "",
+    "url": "https://statmodeling.stat.columbia.edu/2026/03/25/what-major-works-of-literature-were-written-after-age-of-85-75-65/",
+    "ups": 91,
+    "numComments": 57,
+    "createdUtc": 1774715368,
+    "isQuestion": true,
+    "by": "paulpauper",
+    "topComments": [
+      {
+        "body": "This is actually a good fit for a Wikidata SPARQL query you can run here https: query.wikidata.org : SELECT ?work ?workLabel ?author ?authorLabel ?publicationDate ?ageAtPublication WHERE { ?author wdt:P569 ?birth . ?author wdt:P570 ?death . ?author wdt:P800 ?work . ?work wdt:P50 ?author ; wdt:P31 wd:Q47461344 ; wdt:P577 ?publicationDate . FILTER(?publicationDate &lt;= ?death) BIND(YEAR(?publicationDate) - YEAR(?birth) AS ?ageAtPublication) FILTER",
+        "ups": 0,
+        "author": "FelipeCortez"
+      },
+      {
+        "body": "There are a suspicously large number of very straight diagonal lines on those graphs with identical slopes. I might predict that they are individual famous authors that released a lot of works, but the slopes are all identical. What s going on there?",
+        "ups": 0,
+        "author": "CobrastanJorji"
+      },
+      {
+        "body": "&gt; asked LLMs to compile list of 10-20 writers considered canon in each decade since 1800, then identify all their notable works and years of publication. After some iterations with coding agents I got over 2,000 works by 200 authors. Wait, so the source data is just LLM hallucinations? It makes sense to use an LLM to build the data collection, but not to build your source data.",
+        "ups": 0,
+        "author": "wodenokoto"
+      },
+      {
+        "body": "I think this is pretty common across different creative forms albeit with different age ranges but constrained at the higher end. So the greatest physics, maths, poetry and pop music are done by people in their 20s. Literature (esp novels) seems to occupy an older range, perhaps 30s to 50s. Perhaps classical music and philosophy also? I don t know about the visual arts. I interpret it as the former requiring the creative fireworks of youthful neu",
+        "ups": 0,
+        "author": "mellosouls"
+      },
+      {
+        "body": "(complete sidetrack) I think this graph is a great illustration about how anonymising data is hard. It s very easy to isolate individual authors from this list, because there are clear diagonal lines because the year and age are increasing in lockstep. This also suggests there aren t actually that many authors in this collection, because of these strong diagonals everywhere. There s probably also some erroneous data here with a bunch of points re",
+        "ups": 0,
+        "author": "ralferoo"
+      },
+      {
+        "body": "It’s difficult to be a truly interesting person with a unique perspective on life, and have the skills to transmute that experience into a work of art, when you’re young. You simply haven’t logged the hours in the world, and I kind of don’t trust your opinion on something if you haven’t. Not sure if I’d call him a major writer, but Raymond Chandler is one of my favorites and I think he’s a good example. To me there is a fundamental difference bet",
+        "ups": 0,
+        "author": "keiferski"
+      }
+    ]
+  },
+  {
+    "id": "47586176",
+    "primaryTag": "story",
+    "title": "Claude Code users hitting usage limits 'way faster than expected'",
+    "description": "",
+    "url": "https://www.theregister.com/2026/03/31/anthropic_claude_code_limits/",
+    "ups": 168,
+    "numComments": 119,
+    "createdUtc": 1774959089,
+    "isQuestion": false,
+    "by": "samizdis",
+    "topComments": [
+      {
+        "body": "Recently after noticing how quickly limits are consumed and reading others complaints about same issue on reddit I was wondering how much about this is real error or bug hidden somewhere and how much it s about testing what threshold of constraining limits will be tolerated without cancelling accounts. Eventually, in case of &quot;shit hits the fan&quot; situation it can be always dismissed by waving hands and apologizing (or not) about some abst",
+        "ups": 0,
+        "author": "pxtail"
+      },
+      {
+        "body": "This turned out to be a bug. https: x.com om_patel5 status 2038754906715066444?s=20 One reddit user reverse engineered the binary and found that it was a cache invalidation issue. They are doing some hidden string replacement if the claude code conversation talks about billing or tokens. Looks like that invalidates the cache at that point. If that string appears anywhere in the conversation history, I think the starting text is replaced, your ent",
+        "ups": 0,
+        "author": "dinakernel"
+      },
+      {
+        "body": "I cancelled my pro plan last month. I was using Claude as my daily driver. In fact had the API plan also and topped it with $20 more. So it was around $40 each month. Starting from December last year it has been like this. When sessions could last a couple of hours with some deep boilerplate and db queries etc. to architecture discussion and tool selection. Slowly the last two months it just gets over. One prompt and few discussions as to why thi",
+        "ups": 0,
+        "author": "p2hari"
+      },
+      {
+        "body": "I find Claude code to be a token hog. No matter how confidently the papers say context rot is not an issue I find curating context to be highly important to output quality. Manually managing this in the Claude Webui has helped with my use cases more than freely tossing Claude code at it. Likely I am using both &quot;wrong&quot; but the way I use it is easier for me to reason about and minimize context rot.",
+        "ups": 0,
+        "author": "robviren"
+      },
+      {
+        "body": "Yesterday (pro plan) I ran one small conversation in which Claude did one set of three web searches, a very small conversation with no web search, and I added a single prompt to an existing long conversation. I was shocked to see after the last prompt that I had somehow hit my limit until 5:00pm. This account is not connected to an IDE or Code, super confusing.",
+        "ups": 0,
+        "author": "elephanlemon"
+      },
+      {
+        "body": "There s a weird token anxiety you get on these platforms. And you basically don t know how much of this limit you may consume at any time. And you actually don t even know what the limit is or how it s calculated. So far, people have just assumed Anthropic will do the kind thing and give you more than you could ever use...",
+        "ups": 0,
+        "author": "aliljet"
+      }
+    ]
+  },
+  {
+    "id": "47589567",
+    "primaryTag": "story",
+    "title": "Scotty: A beautiful SSH task runner",
+    "description": "",
+    "url": "https://freek.dev/3064-scotty-a-beautiful-ssh-task-runner",
+    "ups": 16,
+    "numComments": 4,
+    "createdUtc": 1774973549,
     "isQuestion": false,
     "by": "speckx",
     "topComments": [
       {
-        "body": "&gt; This thing also has a &quot;Text the President&quot; button that auto-fills your message with &quot;Greatest President Ever!&quot; and then collects your name and phone number. when is the onion going to go bankrupt? it has to be soon, i imagine. no way it can compete with reality at this point. (the rest of the article is a bit too depressing for me to comment on at the moment, other than saying &quot;wow, gross&quot;)",
+        "body": "&gt; It lets you define deploy scripts and other remote tasks Ok. &gt; run them from your terminal and watch every step as it happens &gt; and watch every step as it happens Yes, this is usually how scripts work. &gt; When everything finishes, you get a summary table with timing for each step. &gt; If a task fails, its output is shown and execution stops right there so you can investigate. Yes, I write my larger scripts to do such things... &gt; ",
+        "ups": 0,
+        "author": "qmr"
+      },
+      {
+        "body": "The most obvious question, I know, but... why not just use plain Bash?",
+        "ups": 0,
+        "author": "wackget"
+      }
+    ]
+  },
+  {
+    "id": "47588658",
+    "primaryTag": "tell",
+    "title": "Tell HN: Chrome says \"suspicious download\" when trying to download yt-dlp",
+    "description": "",
+    "url": "https://news.ycombinator.com/item?id=47588658",
+    "ups": 211,
+    "numComments": 65,
+    "createdUtc": 1774970411,
+    "isQuestion": false,
+    "by": "joering2",
+    "topComments": [
+      {
+        "body": "The heuristics powering this, as well as the Windows Defender whitelisting, are terrible. My understanding is that a specific binary needs to become popular for it to stop being flagged. This creates a chicken and egg problem. Users are not incentivized to use the program with the warning. But removing the warning requires many people to ignore the warning. This is a big problem for anyone writing Windows software. An indie developer or small ope",
+        "ups": 0,
+        "author": "asveikau"
+      },
+      {
+        "body": "for what it is worth, when downloading the latest .exe from github, firefox says &quot;this file is not commonly downloaded&quot; and i have to select &quot;allow download&quot;. scans of it are fine. probably just a heuristic-based false-positive, and not a news-worthy story of chrome abusing their monopoly or whatever.",
         "ups": 0,
         "author": "john_strinlai"
       },
       {
-        "body": "The closing point is the one that should get more attention — every single one of these apps could be replaced by a web page. And from a product standpoint, there s really only one reason to ship a native app when your content is just press releases and weather alerts: you want access to APIs the browser won t give you. Background location, biometrics, device identity, boot triggers — none of that is available through a browser, and that s by, un",
+        "body": "I can reproduce when downloading https: github.com yt-dlp yt-dlp releases download 2026.03.1... . But it did provide a line of explanation: Dangerous download blocked yt-dlp_win_x86.zip is not commonly downloaded and may be dangerous. [Discard] [Keep]",
         "ups": 0,
-        "author": "saadn92"
+        "author": "cvhc"
       },
       {
-        "body": "Do these posts just get upvoted due to the graphics animations? I find this site incredibly difficult to read with things re-playing as you scroll up and down and the articles I ve read from here are often light on details. The graphics seem very AI-generated (overlapping text and other little issues) which makes me think the whole thing is from an LLM. While this post does have some interesting information, I have to wade through distracting ani",
+        "body": "The binaries they offer are complied using PyInstaller, which can give false positives in anti virus software.",
+        "ups": 0,
+        "author": "jddecker"
+      },
+      {
+        "body": "Reminds me of how Bing search for Google takes people to a page meant to resemble Google.com. Can t trust huge companies. But as others have pointed out, it s probably a coincidence in this case. But who knows.",
+        "ups": 0,
+        "author": "alsetmusic"
+      },
+      {
+        "body": "It s funny such a big corporations can t let such a small tool live. Google is such an evil company, it is not even provided anything great anymore. Anti-gravity paid plans suck, GCP is billing heavy. Today google sucks at most things Their Android playstore hardly updates statistics once a day, so much for such a big data company with unlimited sources lol",
+        "ups": 0,
+        "author": "faangguyindia"
+      }
+    ]
+  },
+  {
+    "id": "47555035",
+    "primaryTag": "show",
+    "title": "Show HN: Loreline, narrative language transpiled via Haxe: C++/C#/JS/Java/Py/Lua",
+    "description": "",
+    "url": "https://loreline.app/en/docs/technical-overview/",
+    "ups": 27,
+    "numComments": 8,
+    "createdUtc": 1774708917,
+    "isQuestion": false,
+    "by": "jeremyfa",
+    "topComments": [
+      {
+        "body": "Now this is prime Hacker News content! Thank you. The idea of a narrative language is fascinating and I ll upvote anything that s using Haxe. I took Haxe for a spin years ago and was really impressed, just haven t been able to find the excuse to use it in my day to day work. I find the idea of cross-platform transpilation rather than compilation to be very interesting. Particularly when working with platforms like iOS where Apple can change the g",
+        "ups": 0,
+        "author": "afavour"
+      },
+      {
+        "body": "This is very interesting - I’ve tried to make custom syntaxes for describing dialog etc multiple times, for embedding into game projects, especially since things like Ink aren’t really amenable to porting to other languages easily. So the multitarget multi-language focus is very attractive. One thing I will say though - I think something that would set a language toolset like this apart, would be a high quality UI for showing how different parts ",
+        "ups": 0,
+        "author": "dwroberts"
+      },
+      {
+        "body": "Seems pretty promising. The language looks clean which I can t say for some of the alternatives. The thing that I find so challenging about these types of systems is scaling up the richness of the playback. Very quickly I find I need to integrate animations, lip sync, vfx, timed event triggers... For that you really need some kind of timeline. Delays don t cut it. So then these clean text driven systems are at best an early step in a large proces",
+        "ups": 0,
+        "author": "jayd16"
+      },
+      {
+        "body": "Hi, Loreline author here, I linked to the technical overview of Loreline, a narrative language to write interactive fiction and dialogues in games, because it shows how Haxe can be used to create software that can run as a library on many other platforms. You can try the language syntax directly here: https: loreline.app en playground And look at the code there: https: github.com jeremyfa loreline Feel free to ask any question feedback!",
+        "ups": 0,
+        "author": "jeremyfa"
+      },
+      {
+        "body": "I used Haxe a lot when OpenFL + HaxeFlixel were still more common. Haxe is a nice programming language.",
+        "ups": 0,
+        "author": "ciroduran"
+      },
+      {
+        "body": "I m familiar with Haxe through the game Dead Cells, which has absolutely exquisite controls gameplay and graphics",
+        "ups": 0,
+        "author": "xkcd-sucks"
+      }
+    ]
+  },
+  {
+    "id": "47521813",
+    "primaryTag": "story",
+    "title": "A Love Letter to 'Girl Games'",
+    "description": "",
+    "url": "https://aftermath.site/a-love-letter-to-girl-games/",
+    "ups": 96,
+    "numComments": 81,
+    "createdUtc": 1774465826,
+    "isQuestion": false,
+    "by": "zdw",
+    "topComments": [
+      {
+        "body": "Personally what I find weird about this whole ordeal is that from my many years of interacting with nerdy (or maybe not so nerdy) women who played computer games is that there exists one franchise that combines the holy grail of complex gameplay (so it can t be dismissed as another match 3 clone), with insane amount of female appeal, both in the number of hours played and the number of people who play it. And that franchise is The Sims . Despite ",
+        "ups": 0,
+        "author": "torginus"
+      },
+      {
+        "body": "I have two young daughters who love video games. While there is definitely a great deal many games in my Steam Library they aren t interested in, that s mostly a reflection of my tastes not being shared by them. As it is, there are _many_ games on Steam that they ve sunk thousands of hours into. Some that immediately come to mind are A Little to the Left, Unpacking, Hogwart s Legacy, Grounded, Minecraft, Tower Wizard, Little Kitty Big City, A Sho",
+        "ups": 0,
+        "author": "dleslie"
+      },
+      {
+        "body": "I don t really agree with the author s assertion that things that appeal to women are treated as inherently lesser in general compared to things that appeal to men. I think plenty of things for both genders are treated as silly or shallow or dumb (and that s not entirely inaccurate). I do wonder if there s data on this, though.",
+        "ups": 0,
+        "author": "TulliusCicero"
+      },
+      {
+        "body": "A point of contention with the article. Most women I know who played the old Tomb Raider games loved them, and preferred them to the reboots.",
+        "ups": 0,
+        "author": "torginus"
+      },
+      {
+        "body": "lol. So many guys here taking about how girls are involved in gaming. Me too! But from a different angle. The vast majority of gaming focuses on zero-sum resolution. Someone loses or dies so someone else can continue or live. In my experience as an American white male I have a feeling women would be drawn towards win-win resolutions, or even games that are not so focused on conflict. So taking COD and swapping the bad guys for aliens and the base",
+        "ups": 0,
+        "author": "drfloyd51"
+      },
+      {
+        "body": "Great article! Needless gendering absolutely hinders innnovation, in game design and elsewhere. (Not to mention the unfairness, oppression, and general absurdity). Slightly unrelated, but the point about tutorials starting with the “basics”, i.e., “making a character move and attack” is interesting. On the one hand, if you have a strong enough grasp on programming fundamentals, it should be pretty easy to take what you learn there and make a “dre",
+        "ups": 0,
+        "author": "Silamoth"
+      }
+    ]
+  },
+  {
+    "id": "47536719",
+    "primaryTag": "story",
+    "title": "Multiple Sclerosis",
+    "description": "",
+    "url": "https://subfictional.com/multiple-sclerosis/",
+    "ups": 53,
+    "numComments": 20,
+    "createdUtc": 1774564657,
+    "isQuestion": false,
+    "by": "luu",
+    "topComments": [
+      {
+        "body": "https: www.astrazeneca.com what-science-can-do topics next-... AstraZeneca is doing some really interesting research in this area - cell therapies that reset the immune system to eliminate the dysfunctional cells driving autoimmune disease, and then allow a healthy immune system to rebuild (for diseases like lupus, rheumatoid arthritis, and multiple sclerosis).",
+        "ups": 0,
+        "author": "prplfsh"
+      },
+      {
+        "body": "https: neurosciencenews.com gut-immune-responses-ms-trigger... A landmark study from Keio University (published March 2026 in Science Immunology) has identified a key mechanism linking the gut to MS. This opens the door to new MS treatments targeting the gut itself — such as modifying gut bacteria or blocking the abnormal antigen-presenting activity of IECs — rather than broadly suppressing the immune system",
+        "ups": 0,
+        "author": "freezystem"
+      },
+      {
+        "body": "I was part of a team researching MS at a university a while ago. It truly is an endlessly fascinating disease. Most evidence currently points to MS being caused by a combination of Epstein-Barr infection and genetic factors [0,1]. It is hypothesized that Epstein-Barr triggers autoimmunity which results in the prototypical demyelination [2]. [0]: https: www.science.org doi 10.1126 science.abj8222 [1]: https: www.pnas.org doi 10.1073 pnas.242498612",
+        "ups": 0,
+        "author": "maxall4"
+      },
+      {
+        "body": "Dead URL",
+        "ups": 0,
+        "author": "functionmouse"
+      },
+      {
+        "body": "[dead]",
+        "ups": 0,
+        "author": "peacechance"
+      }
+    ]
+  },
+  {
+    "id": "47581701",
+    "primaryTag": "story",
+    "title": "Universal Claude.md – cut Claude output tokens",
+    "description": "",
+    "url": "https://github.com/drona23/claude-token-efficient",
+    "ups": 424,
+    "numComments": 152,
+    "createdUtc": 1774920214,
+    "isQuestion": false,
+    "by": "killme2008",
+    "topComments": [
+      {
+        "body": "It seems the benchmarks here are heavily biased towards single-shot explanatory tasks, not agentic loops where code is generated: https: github.com drona23 claude-token-efficient blob main ... And I think this raises a really important question. When you re deep into a project that s iterating on a live codebase, does Claude s default verbosity, where it s allowed to expound on why it s doing what it s doing when it s writing massive files, allow",
+        "ups": 0,
+        "author": "btown"
+      },
+      {
+        "body": "From the file: &quot;Answer is always line 1. Reasoning comes after, never before.&quot; LLMs are autoregressive (filling in the completion of what came before), so you d better have thinking mode on or the &quot;reasoning&quot; is pure confirmation bias seeded by the answer that gets locked in via the first output tokens.",
+        "ups": 0,
+        "author": "xianshou"
+      },
+      {
+        "body": "So many problems with this: The benchmark is totally useless. It measures single prompts, and only compares output tokens with no regard for accuracy. I could obliterate this benchmark with the prompt &quot;Always answer with one word&quot; This line: &quot;If a user corrects a factual claim: accept it as ground truth for the entire session. Never re-assert the original claim.&quot; You re totally destroying any chance of getting pushback, any mi",
+        "ups": 0,
+        "author": "niklassheth"
+      },
+      {
+        "body": "&gt; the file loads into context on every message, so on low-output exchanges it is a net token increase Isn’t this what Claude’s personalization setting is for? It’s globally-on. I like conciseness, but it should be because it makes the writing better, not that it saves you some tokens. I’d sacrifice extra tokens for outputs that were 20% better, and there’s a correlation with conciseness and quality. See also this Reddit comment for other thing",
+        "ups": 0,
+        "author": "sillysaurusx"
+      },
+      {
+        "body": "As with all of these cure-alls, I m wary. Mostly I m wary because I anticipate the developer will lose interest in very little time and also because it will just get subsumed into CC at some point if it actually works. It might take longer but changing my workflow every few days for the new thing that s going to reduce MCP usage, replace it, compress it, etc is way too disruptive. I m generally happy with the base Claude Code and I think running ",
         "ups": 0,
         "author": "joshstrange"
       },
       {
-        "body": "Relatedly, I just registered for PACER to download court documents. It s pretty shocking that to get public legal documents the US Federal Court system requires full name, birthdate, address, phone, email, credit card info... and I THINK (it s past the initial registration page so can t confirm 100%) also mother s maiden name and 2 common security questions. Just a treasure-trove of PII if it ever falls into the wrong hands. (What s esp frustrati",
+        "body": "Things like this make me sad because they make obvious that most people don’t understand a bit about how LLM work. The “answer before reasoning” is a good evidence for it. It misses the most fundamental concept of tranaformers: the are autoregressive. Also, the reinforcement learning is what make the model behave like what you are trying to avoid. So the model output is actually what performs best in the kind of software engineering task you are ",
         "ups": 0,
-        "author": "bluepeter"
-      },
-      {
-        "body": "I m old enough to remember when people actually took the Hatch Act seriously.",
-        "ups": 0,
-        "author": "pickleglitch"
-      },
-      {
-        "body": "You could not pay me to use any of these apps. All of my own devices run some form of Linux (Debian for servers, Arch for desktop laptop, GrapheneOS on phone). I generally refuse to use non-free software, the main exception being Steam on a dedicated gaming rig. I really don t understand why everything has to be an &quot;app.&quot; My phone only has a handful of apps, including two web browsers, through which other things are accessed. No app get",
-        "ups": 0,
-        "author": "drnick1"
+        "author": "motoboi"
       }
     ]
   },
   {
-    "id": "47573519",
-    "primaryTag": "story",
-    "title": "Do your own writing",
+    "id": "47590261",
+    "primaryTag": "ask",
+    "title": "Ask HN: Academic study on AI's impact on software development – want to join?",
     "description": "",
-    "url": "https://alexhwoods.com/dont-let-ai-write-for-you/",
-    "ups": 145,
-    "numComments": 45,
-    "createdUtc": 1774874396,
-    "isQuestion": false,
-    "by": "karimf",
+    "url": "https://news.ycombinator.com/item?id=47590261",
+    "ups": 21,
+    "numComments": 8,
+    "createdUtc": 1774976254,
+    "isQuestion": true,
+    "by": "research2026",
     "topComments": [
       {
-        "body": "I ve long considered writing to be the &quot;last step in thinking&quot;. I can t tell you how many times an idea, that was crystal clear in my mind, fell apart the moment I started writing and I realize there were major contradictions I needed to resolve. Likewise I also have numerous times where writing about something loosely and casually revealed to me something that fundamentally changed how I viewed a topic and really consolidated my thinki",
+        "body": "How do we know you re genuine and not just trying to get contact info etc.? There is no info identifying you in your HN profile nor in the Qualtrics form. There is no link to official study.",
         "ups": 0,
-        "author": "roadside_picnic"
+        "author": "yumraj"
       },
       {
-        "body": "I agree with most of this, but my one qualm is the notion that LLMs &quot;are particularly good at generating ideas.&quot; It s fair enough that you can discard any bad ideas they generate. But by design, the recommendations will be average, bland, mainstream, and mostly devoid of nuance. I wouldn t encourage anyone to use LLMs to generate ideas if you re trying to create interesting or novel ideas.",
+        "body": "do I get a starbucks giftcard or anything?",
         "ups": 0,
-        "author": "nerevarthelame"
+        "author": "roguechimpanzee"
       },
       {
-        "body": "The way I approach having LLM help with writing documents like this is to have it help me clean up my writing, not write the substance of it. I tend to do extensive research (that process in itself would involve LLMs too, sure) in a tech plan, a product spec, etc. and usually end up with a really solid idea in my head and like say, five critical key points about this tech plan or product spec that I absolutely must convey in this document. Then I",
+        "body": "done. good luck!",
         "ups": 0,
-        "author": "godot"
+        "author": "0xchamin"
       },
       {
-        "body": "&gt; When I send somebody a document that whiffs of LLM, I’m only demonstrating that the LLM produced something approximating what others want to hear. I’m not showing that I contended with the ideas. This eloquently states the problem with sending LLM content to other people: As soon as they catch on that you re giving them LLM writing, it changes the dynamic of the relationship entirely. Now you re not asking them to review your ideas or code, ",
+        "body": "Thank you just completed the form",
         "ups": 0,
-        "author": "Aurornis"
+        "author": "grossiweb"
       },
       {
-        "body": "I had an interesting experience the other day. I ve been struggling with some lyrics to a song I am writing. I asked Claude to review them, and it did an amazing job of finding the weak lines and best lines, and nearly perfectly articulating to my why they were weak or strong. It was strange because the output of the analysis almost perfectly mirrored my own thoughts. When I asked it for alternatives edits, they were not good however.",
+        "body": "[dead]",
         "ups": 0,
-        "author": "locusofself"
-      },
-      {
-        "body": "Writing down specs for technical projects is a transformational skill. I ve had projects that seemed tedious or obvious in my head only to realize hidden complexity when trying to put their trivial-ness into written words. It really is a sort of meditation on the problem. In the most important AI assisted project I ve shipped so far I wrote the spec myself first entirely. But feeding it through an LLM feedback loop felt just as transformational, ",
-        "ups": 0,
-        "author": "6thbit"
+        "author": "Remi_Etien"
       }
     ]
   },
   {
-    "id": "47574034",
+    "id": "47591208",
     "primaryTag": "story",
-    "title": "How to turn anything into a router",
+    "title": "Iran says it will target US tech companies in Middle East",
     "description": "",
-    "url": "https://nbailey.ca/post/router/",
-    "ups": 476,
-    "numComments": 177,
-    "createdUtc": 1774877334,
+    "url": "https://thehill.com/policy/technology/5809104-iran-irgc-apple-microsoft-google-hp-meta-tesla/",
+    "ups": 12,
+    "numComments": 2,
+    "createdUtc": 1774980181,
     "isQuestion": false,
-    "by": "yabones",
+    "by": "golfer",
     "topComments": [
       {
-        "body": "This is a great writeup! Perhaps I can put in a plug for the create_ap script which I have been maintaining for many years ( http: github.com dlenski create_ap ). It s a shell script that allows you to turn any ol Linux computer into a WiFi router in one quick command-line: By default, it will setup your WiFi card as an access point (allows WPA2 3, MAC filtering, etc), setup packet forwarding and routing, and run a DHCP and DNS server. It will ge",
+        "body": "Has anyone else been having major reliability issues in me-south-1 since the attacks there? I ve had to field several inquiries at work where the answer seems to be &quot;sorry, there s a war on -- pick a different region&quot;.",
         "ups": 0,
-        "author": "dlenski"
+        "author": "ElevenLathe"
       },
       {
-        "body": "Lots of &quot;just use X&quot; comments but the article is about showing the bare minimum how easy the core part of routing actually is. Also, if you have ever used docker or virtual machines with NAT routing (often the default), you ve done exactly the same things. If you have ever enabled the wifi hotspot on an android phone also, you ve done pretty much what the article describes on your phone. All of these use the same Linux kernel features u",
+        "body": "as if they weren t targeting anything valuable already.",
         "ups": 0,
-        "author": "smashed"
+        "author": "PHGamer"
+      }
+    ]
+  },
+  {
+    "id": "47583045",
+    "primaryTag": "story",
+    "title": "Google's 200M-parameter time-series foundation model with 16k context",
+    "description": "",
+    "url": "https://github.com/google-research/timesfm",
+    "ups": 267,
+    "numComments": 98,
+    "createdUtc": 1774934519,
+    "isQuestion": false,
+    "by": "codepawl",
+    "topComments": [
+      {
+        "body": "I somehow find the concept of a general time series model strange. How can the same model predict egg prices in Italy, and global inflation in a reliable way? And how would you even use this model, given that there are no explanations that help you trust where the prediction comes from…",
+        "ups": 0,
+        "author": "EmilStenstrom"
       },
       {
-        "body": "This really takes me back. My first actual use for Linux was making routers out of leftover computers. The perfect machine back then was a 100MHz Pentium, in a slimline desktop case. At the time, the Pentium III was the current desktop chip, so you d have a pile of early Pentium-class machines to use. And even a 10mb ISA network card (3Com if possible) would have plenty of power for the internet connections of the day. But 100mb PCI cards were st",
+        "body": "It would be nice to add (2024) to the title, this is not news (see: https: research.google blog a-decoder-only-foundation-model... )",
         "ups": 0,
-        "author": "bluedino"
+        "author": "kuu"
       },
       {
-        "body": "I ve got one of those N100+10Gbit router devices with a handful of ports. It seems a pretty reasonable device with one of the router distros running on it, but it doesn t seem nearly as efficient as my ucg-fiber route10 devices, and that wouldn t bother me except that I suspect the packet latency is significantly higher too. Those devices AFAIK have hardware programmable router chips, which means the forwarding is done 100% without the interactio",
+        "body": "Here is the link to the blogpost, that actually describe what this is: https: github.com google-research timesfm?tab=readme-ov-fil...",
         "ups": 0,
-        "author": "StillBored"
+        "author": "EmilStenstrom"
       },
       {
-        "body": "You actually don t even need two interfaces on the box if you have a managed switch. It s not too difficult to configure your only interface as an 802.11q trunk port, and then you can use the managed switch as a sort of &quot;interface expander&quot;. This is referred to as a &quot;router on a stick&quot; configuration, and it s how my home network is configured. Plus, if it s a PoE managed switch, you can install some cheap enterprise surplus Ar",
+        "body": "Can someone explain ELI5 how it does work? and how many data points it can read?",
         "ups": 0,
-        "author": "Fwirt"
+        "author": "pplonski86"
       },
       {
-        "body": "I’ve been using OpnSense pfsense [0] for years and would highly recommend it. It has a great automatic update experience, config backups, builtin wireguard tunnels and advanced features like packet filtering options via suricata. When I am doing network management on my weekends, I’m so glad I’m not stuck in the Linux terminal learning about networking internals and can instead just go to a webui and configure my router. 0: https: opnsense.org",
+        "body": "Also: https: github.com Nixtla nixtla and https: facebook.github.io prophet",
         "ups": 0,
-        "author": "LatticeAnimal"
+        "author": "wiradikusuma"
+      },
+      {
+        "body": "I m willing to bet an intelligent LLM with a dataset and a pandas stats package could outperform this model by running its own experiments and making predictions",
+        "ups": 0,
+        "author": "mikert89"
+      }
+    ]
+  },
+  {
+    "id": "47571330",
+    "primaryTag": "story",
+    "title": "Good CTE, Bad CTE",
+    "description": "",
+    "url": "https://boringsql.com/posts/good-cte-bad-cte/",
+    "ups": 149,
+    "numComments": 34,
+    "createdUtc": 1774854671,
+    "isQuestion": false,
+    "by": "radimm",
+    "topComments": [
+      {
+        "body": "Use the term, never define the term, classic. CTE stands for Common Table Expressions in SQL. They are temporary result sets defined within a single query using the WITH clause, acting like named subqueries to improve readability and structure.",
+        "ups": 0,
+        "author": "vlaaad"
+      },
+      {
+        "body": "To the author of the article. This was a really nice and educating read. You made me finally understand recursive CTEs, the org chart was a really good example. Thank you.",
+        "ups": 0,
+        "author": "oveja"
+      },
+      {
+        "body": "There s some good stuff in here. I didn t know about the issues an aggregation in a CTE can cause and haven t used EXISTS much. Regarding recursive CTEs, you might be interested in how DuckDb evolved them with USING KEY: https: duckdb.org 2025 05 23 using-key",
+        "ups": 0,
+        "author": "mcdonje"
+      },
+      {
+        "body": "&gt; Recursive CTEs use an iterative working-table mechanism. Despite the name, they aren t truly recursive. PostgreSQL doesn t &quot;call itself&quot; by creating a nested stack of unfinished queries. If you want something that is more like actual recursion (I.e., depth-first), Oracle has CONNECT BY which does not require the same kind of tracking. It also comes with extra features to help with cycle detection, stack depth reflection, etc. If yo",
+        "ups": 0,
+        "author": "bob1029"
+      },
+      {
+        "body": "Sometimes easy performance trick is to split the CTE to separate queries, put the results to unlogged temporary tables and add whatever indexes the next step needs. Obviously makes only sense for stuff like analytical queries that are not running constantly.",
+        "ups": 0,
+        "author": "jpalomaki"
+      },
+      {
+        "body": "I wrangle databases by day, and do martial arts of an evening. Two arenas where CTEs can cause significant headaches!",
+        "ups": 0,
+        "author": "dspillett"
+      }
+    ]
+  },
+  {
+    "id": "47582043",
+    "primaryTag": "story",
+    "title": "Artemis II is not safe to fly",
+    "description": "",
+    "url": "https://idlewords.com/2026/03/artemis_ii_is_not_safe_to_fly.htm",
+    "ups": 757,
+    "numComments": 489,
+    "createdUtc": 1774923830,
+    "isQuestion": false,
+    "by": "idlewords",
+    "topComments": [
+      {
+        "body": "I m literally guest lecturing at a Harvard class tomorrow on systemic failures in decision making, using the Columbia and Challenger disasters as case studies, and changed my slides last night to include Artemis II because it could literally happen again. This broken safety culture has been around since the beginning of the Shuttle program. In 1980, Gregg Easterbrook published &quot;Goodbye, Columbia&quot; in The Washington Monthly [1], warning t",
+        "ups": 0,
+        "author": "chadd"
+      },
+      {
+        "body": "I haven t kept up with Artemis development but I ve read extensively about Challenger and Columbia. These two parts of the article stood out to me: &gt; Moon-to-Mars Deputy Administrator Amit Kshatriya said: “it was very small localized areas. Interestingly, it would be much easier for us to analyze if we had larger chunks and it was more defined”. A Lockheed Martin representative on the same call added that &quot;there was a healthy margin remai",
+        "ups": 0,
+        "author": "oritron"
+      },
+      {
+        "body": "This is a more balanced take, in my opinion: https: arstechnica.com space 2026 01 nasa-chief-reviews-ori... Camarda is an outlier. The engineers at NASA believe it is safe. The astronauts believe it is safe. Former astronaut Danny Olivas was initially skeptical of the heat shield but came around. And note that the OP believes it is likely (maybe very likely) that the heat shield will work fine. It s hard for me to reconcile &quot;It is likely tha",
+        "ups": 0,
+        "author": "GMoromisato"
+      },
+      {
+        "body": "Someone please answer my obvious question. We sent successful missions to the moon sixty years ago. What heat shield material was used for the Apollo capsules, and why would we need something different now? Are the Artemis mission parameters totally different in a way that requires a new design? Or was Apollo incredibly dangerous and we got lucky they didn’t all fail catastrophically? The article mentions Orion is much heavier than the Apollo cap",
+        "ups": 0,
+        "author": "turtletontine"
+      },
+      {
+        "body": "&gt; This will be second flight of NASA’s SLS rocket, and the first time the 20-year-old Orion capsule flies with people on board. THEY REUSE THESE CAPSULES?!",
+        "ups": 0,
+        "author": "justinator"
+      },
+      {
+        "body": "&gt; “Our test facilities can’t reach the combination of heat flux, pressure, shear stresses, etc., that an actual reentering spacecraft does. We’re always having to wait for the flight test to get the final certification that our system is good to go.”—Jeremy VanderKam, deputy manager for Orion’s heat shield, speaking in 2022 This is a strange claim, considering NASA used to have 2 facilities that were capable of this - one at Johnson and one at",
+        "ups": 0,
+        "author": "bsilvereagle"
+      }
+    ]
+  },
+  {
+    "id": "47532891",
+    "primaryTag": "story",
+    "title": "Clojure: The Documentary, official trailer [video]",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=JJEyffSdBsk",
+    "ups": 310,
+    "numComments": 64,
+    "createdUtc": 1774544454,
+    "isQuestion": false,
+    "by": "fogus",
+    "topComments": [
+      {
+        "body": "I ve been running my business for 10 years now, relying on Clojure and ClojureScript. It is amazing to be able to base one s livelihood on a foundation that is so stable and well designed. Clojure has been designed by a very smart and very experienced person, and it shows. It has then been maintained and extended by a team built around a culture of maturity and stability, and the result is something you can rely on. The fact that I can use the sa",
+        "ups": 0,
+        "author": "jwr"
+      },
+      {
+        "body": "I have been writing Clojure since 2017. Unlike every other language that helps you achieve a task, Clojure helped me think. Clojure for me is a rich vocabulary to talk interact with data. When Jank becomes stable, Clojure will be unstoppable.",
+        "ups": 0,
+        "author": "shivekkhurana"
+      },
+      {
+        "body": "I don t have much love for Java - it s an OK statically typed language - but I have the utmost respect for the Java runtime environment. Clojure is a beautiful Lisp, and coupled with the JVM it s extremely powerful.",
+        "ups": 0,
+        "author": "rbanffy"
+      },
+      {
+        "body": "Every time I write another DTO → domain → DB mapping layer in Kotlin TypeScript, I think about Clojure. I’m pretty grateful I learned it. It really changed how I think about software. Still, it’s a trade: less ceremony, more responsibility.",
+        "ups": 0,
+        "author": "lukashrb"
+      },
+      {
+        "body": "My favourite companion to Java, when on the JVM, especially because the host language community culture. If you want a Lisp Machines like experience with Clojure, support the Cursive folks. https: cursive-ide.com",
+        "ups": 0,
+        "author": "pjmlp"
+      },
+      {
+        "body": "Clojure is the language that made me &quot;understand Lisp&quot;, as originally stated by Eric Raymond and citet by Paul Graham: https: paulgraham.com avg.html It seems like a small thing, but Clojure s choice to open up for other types of parentheses made seeing the structure of lisp programs much easier. This helped me understand how code is data and how macros are functions that can transform both code and data. An important design philosophy ",
+        "ups": 0,
+        "author": "vaylian"
+      }
+    ]
+  },
+  {
+    "id": "47582984",
+    "primaryTag": "story",
+    "title": "GitHub backs down, kills Copilot pull-request ads after backlash",
+    "description": "",
+    "url": "https://www.theregister.com/2026/03/30/github_copilot_ads_pull_requests/",
+    "ups": 524,
+    "numComments": 308,
+    "createdUtc": 1774933884,
+    "isQuestion": false,
+    "by": "_____k",
+    "topComments": [
+      {
+        "body": "I’ll never understand why they ruined GitHub. They had everything they needed - the one place in the world where 99% of open source projects were hosted, where all the discussions happened. A product that people were so used to that it was a no brainer when it came to hosting private repos. And they had to ruin it and give space to GitLab and other competitors. What a waste…",
+        "ups": 0,
+        "author": "arnvald"
+      },
+      {
+        "body": "I guess it s time to consider ditching GitHub. Everything that are purchased by Microsoft ware destined to be rotten.",
+        "ups": 0,
+        "author": "ezoe"
+      },
+      {
+        "body": "This is how these kinds of companies operate; push the limit until customers start complaining, then you back off a little bit. They ve still advanced to that line, of course, but now the userbase can be conditioned for the next push so that &quot;a little bit worse than before&quot; feels normal.",
+        "ups": 0,
+        "author": "b00ty4breakfast"
+      },
+      {
+        "body": "Microsoft will probably try to sneak it back in later. They ve done that with other intrusions. Migrating away from Github just increased in priority.",
+        "ups": 0,
+        "author": "Animats"
+      },
+      {
+        "body": "Calling advertisements &quot;product tips&quot; as if everybody is too stupid to understand what that means. They created an amazing technology that oftentimes is indistinguishable from magic and then use it to deliver ads and - sorry about the tangent - kill people. This really is the quote of the century: &gt; The best minds of my generation are thinking about how to make people click ads What a waste.",
+        "ups": 0,
+        "author": "yosamino"
+      },
+      {
+        "body": "&gt; GitHub does not and does not plan to include advertisements in GitHub They already did! https: github.com orgs community discussions 65245",
+        "ups": 0,
+        "author": "crvdgc"
       }
     ]
   },
@@ -137,16 +1121,26 @@
     "title": "Turning a MacBook into a touchscreen with $1 of hardware (2018)",
     "description": "",
     "url": "https://anishathalye.com/macbook-touchscreen/",
-    "ups": 36,
-    "numComments": 10,
+    "ups": 390,
+    "numComments": 196,
     "createdUtc": 1774898553,
     "isQuestion": false,
     "by": "HughParry",
     "topComments": [
       {
-        "body": "I wonder how well this would work with my bright blue fingernails that are about .5&quot; longer than my finger. I then wonder how much recalibration I would have to do when one of them broke and I was poking directly at the screen.",
+        "body": "&quot;We ve done tons of user testing on this, and it turns out it doesn t work. Touch surfaces don t want to be vertical. It gives great demo but after a short period of time, you start to fatigue and after an extended period of time, your arm wants to fall off. it doesn t work, it s ergonomically terrible.&quot; -Steve Jobs, 2010 https: www.businessinsider.com steve-jobs-touch-screen-mac-...",
         "ups": 0,
-        "author": "egypturnash"
+        "author": "wildrhythms"
+      },
+      {
+        "body": "I wouldn t want a touchscreen MBP even if it was free, anyone else feel similar? I don t get the draw - we already optimize for keyboard commands to avoid living our fingers over to a touchpad. Why would I want to start clicking on my screen? If you re using your computer for tasks (rather than entertainment) and you re not a visual designer, I don t get why Apple are apparently going to be putting them into the new MBP line later this year.",
+        "ups": 0,
+        "author": "dotBen"
+      },
+      {
+        "body": "My previous work provided laptop had a touchscreen and I miss it (for the record, the screen didn t fold 180). It was useful about once a week and I completely forgot about it the rest of the time. Two primary use cases. Sitting on the train with the laptop in my actual lap it was often more convenient to reach for the screen instead of the trackpad, especially when I had someone sitting next to me on the right and I didn t want to stab them in t",
+        "ups": 0,
+        "author": "Zobat"
       },
       {
         "body": "Love it! I appreciate the ethos of doing more with existing hardware. Adding an actual touchscreen would add real COGs to a macbook, and many potential failure points. Using the existing camera hardware + software seems to produce a &quot;good enough&quot; result for most people for casual use. I m sure with some time and eng, Apple could make the &quot;hack&quot; shippable. But it doesn t earn product managers the big big bonuses, so it ll never",
@@ -154,986 +1148,14 @@
         "author": "solfox"
       },
       {
-        "body": "Using an external webcam is that not more than $1? cool project though; reminds me of how you could use a Wii remote to create a interactive whiteboard.",
+        "body": "&gt; &quot;Filter for skin colors and binary threshold&quot; Which skin colours? The image below that has a lot of colours that I d associate with darker skin colours, and they re not included in the triggering zone. I d be interested to see some data on hoe well it works with someone who has dark skin",
         "ups": 0,
-        "author": "spidermonkey23"
+        "author": "voidUpdate"
       },
       {
-        "body": "Is there a coating you can apply to the glass to help with smudge marks?",
+        "body": "Touch screens are not pleasant for laptops. I prefer not to have them.",
         "ups": 0,
-        "author": "t1234s"
-      },
-      {
-        "body": "Still an amazing hack today and I love it. However, I heard Apple are developing a touch screen MacBook this year, and I simply don t get why they re doing that. I don t know what s worse, the ergonomics or the fingerprints.",
-        "ups": 0,
-        "author": "als0"
-      },
-      {
-        "body": "Brilliant!",
-        "ups": 0,
-        "author": "anandkulkarni"
-      }
-    ]
-  },
-  {
-    "id": "47573887",
-    "primaryTag": "story",
-    "title": "Bird brains (2023)",
-    "description": "",
-    "url": "https://www.dhanishsemar.com/writing/bird-brains",
-    "ups": 260,
-    "numComments": 168,
-    "createdUtc": 1774876467,
-    "isQuestion": false,
-    "by": "DiffTheEnder",
-    "topComments": [
-      {
-        "body": "If you re in tune with animals and spend time around a parrot, it s obvious there is a lot going on in their minds. They have incredible memories and their own understanding of their world. It looks simple to us but they are not simple creatures. That being said, I don t know how a bird lover can keep a bird in a cage.",
-        "ups": 0,
-        "author": "awsanswers"
-      },
-      {
-        "body": "If you d like to read a long-form version of this, take a look at Jennifer Ackerman s &quot;The Bird Way&quot; from 2020. Really loved this book. https: www.jenniferackermanauthor.com the-bird-way Also, just my opinion, but Kea s are the best bird there is.",
-        "ups": 0,
-        "author": "Supercompressor"
-      },
-      {
-        "body": "Adding to this a chart of neuron count [1] [1] - https: en.wikipedia.org wiki List_of_animals_by_number_of_n...",
-        "ups": 0,
-        "author": "Bender"
-      },
-      {
-        "body": "Parrot owner here. This doesn t surprise me at all. I m actually a bit surprised they cared about the gyms! This fits right into the ABC model of parrot psychology: https: www.parrots.org pdfs all_about_parrots reference_lib...",
-        "ups": 0,
-        "author": "junon"
-      },
-      {
-        "body": "I work on some aspects of intelligence in birds, primarily in songbirds. There have been some effort finding general intelligence (&quot;g&quot; cognitive factor) in birds since last 15-20 years. The results have been mixed as you would expect. Animals intelligence have evolved for survival and designing experiments to test those are quite hard. Research has shown brain size matters but not that much, we should look at relative brain size.",
-        "ups": 0,
-        "author": "pks016"
-      },
-      {
-        "body": "Intelligence seems to have evolved on Earth at least three times - mammals, octopuses, and corvids. These are different branches of the evolutionary tree, and the brain architectures are quite different. Octopuses have a distributed system. Corvids get more done with less brain volume and power than mammals.",
-        "ups": 0,
-        "author": "Animats"
-      }
-    ]
-  },
-  {
-    "id": "47549824",
-    "primaryTag": "story",
-    "title": "Cherri – programming language that compiles to an Apple Shortuct",
-    "description": "",
-    "url": "https://github.com/electrikmilk/cherri",
-    "ups": 153,
-    "numComments": 25,
-    "createdUtc": 1774654784,
-    "isQuestion": false,
-    "by": "mihau",
-    "topComments": [
-      {
-        "body": "I ve just used this extensively to build 200 Shortcuts for my event-based automation app on macOS [0], because some actions you simply can t do without Shortcuts: changing Focus Mode, toggling Accessibility functions like Color Filters, accessing the Private Cloud Compute model etc. I also wrote about how Claude was able to basically learn the language from scratch and write those fully compilable Shortcuts for me [1] because it was mind boggling",
-        "ups": 0,
-        "author": "alin23"
-      },
-      {
-        "body": "Still confused on why there is no social component of this? What is the best place to find examples of actual useful Apple Shortcuts?",
-        "ups": 0,
-        "author": "RationPhantoms"
-      },
-      {
-        "body": "Cool! As a professional programmer few things consistently succeed in making me feel inept like trying to build an Apple Shortcut",
-        "ups": 0,
-        "author": "lemontheme"
-      },
-      {
-        "body": "What can you do on a Mac with Shortcuts vs AppleScript vs Hammerspoon?",
-        "ups": 0,
-        "author": "kbd"
-      },
-      {
-        "body": "I built a small app to follow my infant son s feedings and diaper changes. Simply used the shortcuts get content of url to call the API rest endpoints. This is much better !",
-        "ups": 0,
-        "author": "Ragingweb"
-      },
-      {
-        "body": "Looks quite cool and I d like to give a try. What is the main use case for compiling code to shortcuts? I ask because I m working on a tool[0] that in a way does the opposite. [0] https: breadboards.io",
-        "ups": 0,
-        "author": "simquat"
-      }
-    ]
-  },
-  {
-    "id": "47579085",
-    "primaryTag": "story",
-    "title": "We Hid a Free Trip to Switzerland in Our Privacy Policy. Someone Found It",
-    "description": "",
-    "url": "https://www.cape.co/blog/easter-egg-in-privacy-policy",
-    "ups": 8,
-    "numComments": 0,
-    "createdUtc": 1774901113,
-    "isQuestion": false,
-    "by": "bwoah",
-    "topComments": []
-  },
-  {
-    "id": "47578464",
-    "primaryTag": "story",
-    "title": "William Blake, Remote by the Sea",
-    "description": "",
-    "url": "https://www.laphamsquarterly.org/roundtable/william-blake-remote-sea",
-    "ups": 19,
-    "numComments": 0,
-    "createdUtc": 1774897985,
-    "isQuestion": false,
-    "by": "occurrence",
-    "topComments": []
-  },
-  {
-    "id": "47576055",
-    "primaryTag": "story",
-    "title": "OCR for construction documents does not work, we fixed it",
-    "description": "",
-    "url": "https://www.getanchorgrid.com/developer/docs/endpoints/drawings-doors",
-    "ups": 78,
-    "numComments": 47,
-    "createdUtc": 1774886746,
-    "isQuestion": false,
-    "by": "wcisco17",
-    "topComments": [
-      {
-        "body": "&gt; OCR for construction documents does not work I m reminded of the Xerox JBIG2 bug back in ~2013, where certain scan settings could silently replace numbers inside documents, and bad construction-plans were one of the cases that led to it being discovered. [0] It wasn t overt OCR per se , end-user users weren t intending to convert pixels to characters or vice-versa. [0] https: www.youtube.com watch?v=c0O6UXrOZJo&amp;t=6m03s",
-        "ups": 0,
-        "author": "Terr_"
-      },
-      {
-        "body": "We’re taking a different path, building a parsing engine that converts CAD (DWG DXF) into fully structured JSON with preserved semantics (no ML in the critical path).We also have a separate GIS parser that extracts vector data (features, layers, geometries) independently, Like to know how you handle consistency and reproducibility across runs using models and how you make it affordable, especially at scale. because as far as i know CAD and GIS ne",
-        "ups": 0,
-        "author": "sreekanth850"
-      },
-      {
-        "body": "I ran the example doors given and it missed 9 swinging doors, some that were in double swing pairs, and a few that were just out on their own not clustered. Not bad overall though",
-        "ups": 0,
-        "author": "petee"
-      },
-      {
-        "body": "OCR accuracy on technical documents is one of those problems that looks 95% solved until you hit the edge cases. Construction docs are especially tricky because of mixed handwriting, stamps, revision clouds, and poor scan quality. Curious how you handle multi-language documents — a lot of international construction projects have specs in two or three languages on the same page.",
-        "ups": 0,
-        "author": "i18nagentai"
-      },
-      {
-        "body": "Looks cool! Where are you getting the data to finetune the cv models for element extraction? I m worried there isn t a robust enough dataset to be able to build a detection model that will generalize to all of the slightly different standards each discipline (and each firm for that matter) use.",
-        "ups": 0,
-        "author": "frogguy"
-      },
-      {
-        "body": "What do you foresee being the end use case for this (or most valuable use case)?",
-        "ups": 0,
-        "author": "testUser1228"
-      }
-    ]
-  },
-  {
-    "id": "47578086",
-    "primaryTag": "story",
-    "title": "Vulnerability Research Is Cooked",
-    "description": "",
-    "url": "https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/",
-    "ups": 27,
-    "numComments": 4,
-    "createdUtc": 1774896218,
-    "isQuestion": false,
-    "by": "pedro84",
-    "topComments": [
-      {
-        "body": "I m suspicious of this prediction given the curl project s experiences...",
-        "ups": 0,
-        "author": "nitros"
-      },
-      {
-        "body": "[delayed]",
-        "ups": 0,
-        "author": "tomjakubowski"
-      },
-      {
-        "body": "[dead]",
-        "ups": 0,
-        "author": "ronnier"
-      },
-      {
-        "body": "The article is well worth reading !",
-        "ups": 0,
-        "author": "aborsy"
-      }
-    ]
-  },
-  {
-    "id": "47556063",
-    "primaryTag": "story",
-    "title": "Seeing Like a Spreadsheet",
-    "description": "",
-    "url": "https://davidoks.blog/p/how-the-spreadsheet-reshaped-america",
-    "ups": 25,
-    "numComments": 2,
-    "createdUtc": 1774715312,
-    "isQuestion": false,
-    "by": "paulpauper",
-    "topComments": [
-      {
-        "body": "This looks really good. Haven t read in full yet, but I was hoping to see him credit Ben Evans s &quot;Office, messaging and verbs&quot; (2015): &quot;In effect, every person on that floor is a cell in a spreadsheet. The floor is a worksheet and the building is an Excel file, with thousands of cells each containing a single person.&quot; https: www.ben-evans.com benedictevans 2015 5 21 office-mes...",
-        "ups": 0,
-        "author": "dcre"
-      },
-      {
-        "body": "I really feel for Dan Bricklin. He should have been richly rewarded for his innovation.",
-        "ups": 0,
-        "author": "andrewstuart"
-      }
-    ]
-  },
-  {
-    "id": "47575403",
-    "primaryTag": "story",
-    "title": "CodingFont: A game to help you pick a coding font",
-    "description": "",
-    "url": "https://www.codingfont.com/",
-    "ups": 221,
-    "numComments": 133,
-    "createdUtc": 1774883795,
-    "isQuestion": false,
-    "by": "nvahalik",
-    "topComments": [
-      {
-        "body": "Going through this, I was introduced to &lt;= being converted to a ligature which immediately ruled it as a nope for me. No monkey business with the characters of my code thank you very much.",
-        "ups": 0,
-        "author": "dylan604"
-      },
-      {
-        "body": "No Commit Mono :( The GOAT - https: commitmono.com",
-        "ups": 0,
-        "author": "dlvhdr"
-      },
-      {
-        "body": "Knowing that everything in here is people asking why their font is missing: I highly recommend having a look at [ MAPLE MONO ] (on Github https: github.com subframe7536 Maple-font ). It has amazing readability, looks nice, is compatible with NF if you use that. I received compliments from people looking over my shoulder for my f ing font?! Huge shoutout to subframe7536 ^^",
-        "ups": 0,
-        "author": "torgeros"
-      },
-      {
-        "body": "Sadly, IBM 3270 is missing from the lot. How can I write professional looking code that lasts a lifetime in anything less? I also remember some nice ones designed to look like a smoothed VT-220 one.",
-        "ups": 0,
-        "author": "rbanffy"
-      },
-      {
-        "body": "Something I never liked about this game is its showing it in your browser at your chosen font size. Chrome (assuming you re using Chrome) draws it a specific way. This does not match how Freetype (using typical tuning) or DirectWrite draws it. Chrome s choices in font renderer tuning and blending makes it kind of split the difference between Windows-style and OSX-style, and isn t native to either. What it should be doing is showing you lossless s",
-        "ups": 0,
-        "author": "DiabloD3"
-      },
-      {
-        "body": "Berkeley Mono, Iosevka, and Cascadia Code are missing which are my favorite fonts. The game handed me Roboto Mono instead. What I noticed while playing was that when fonts are similar, I really pay attention to the rendering of &quot;m&quot; and &quot;r&quot;. When they look off, the whole font looks off to me.",
-        "ups": 0,
-        "author": "sedatk"
-      }
-    ]
-  },
-  {
-    "id": "47567242",
-    "primaryTag": "story",
-    "title": "Build123d: A Python CAD programming library",
-    "description": "",
-    "url": "https://github.com/gumyr/build123d",
-    "ups": 91,
-    "numComments": 37,
-    "createdUtc": 1774817902,
-    "isQuestion": false,
-    "by": "Ivoah",
-    "topComments": [
-      {
-        "body": "These types of CAD scripting tools are great but always try to position themselves as an “alternative” to GUI-driven CAD, whereas in reality they are complementary. OnShape got it right with FeatureScript ( https: cad.onshape.com FsDoc ), which provides a very similar experience to Build123d at the scripting level. However, the insight that OnShape got right is that these scripts automatically become available as possible nodes within the history",
-        "ups": 0,
-        "author": "injidup"
-      },
-      {
-        "body": "as someone mentioned recently somebody made this build123d-playground on the web: https: jojain.github.io build123d-sandbox learning curve is steep, but the examples get you going in no time.. though not really CAD, favorite example: https: build123d.readthedocs.io en latest examples_1.html#c... shows the ability of this implementation of the open cascade kernel.. i havent found this kind of projection function too often in other cad programs, so",
-        "ups": 0,
-        "author": "nakedneuron"
-      },
-      {
-        "body": "CAD has needed a proper code-first workflow for years. The existing options always felt like they were built for the GUI first and scripting was bolted on after.",
-        "ups": 0,
-        "author": "latenode"
-      },
-      {
-        "body": "I used to do a lot with AutoLisp in AutoCAD back when it ran in DOS. Did a lot of dynamic creation and manipulation of the models with it. It was useful and a lot of fun (aside from parenthesis nesting).",
-        "ups": 0,
-        "author": "Tagbert"
-      },
-      {
-        "body": "I have been using this library for a few months alongside Gemini 3.1 Fast It s really useful to get an iteration loop going with an LLM. The OCCP viewer extension for VS Code helps make sure you can see and manipulate the resulting model",
-        "ups": 0,
-        "author": "z3ugma"
-      },
-      {
-        "body": "Why do these tools never have the equivalent of sketch contraints in FreeCAD? That s how I build my models and it avoids a lot of math. I d really like a &quot;CAD as code&quot; tool that s basically the FreeCAD Part Design workflow but with code. I know FreeCAD has a python interface but it s far from developer friendly.",
-        "ups": 0,
-        "author": "copirate"
-      }
-    ]
-  },
-  {
-    "id": "47528403",
-    "primaryTag": "story",
-    "title": "In math, rigor is vital, but are digitized proofs taking it too far?",
-    "description": "",
-    "url": "https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/",
-    "ups": 74,
-    "numComments": 58,
-    "createdUtc": 1774518104,
-    "isQuestion": true,
-    "by": "isaacfrond",
-    "topComments": [
-      {
-        "body": "Great quote from Hilbert, I think it’s also a useful thought for software development. “The edifice of science is not raised like a dwelling, in which the foundations are first firmly laid and only then one proceeds to construct and to enlarge the rooms,” the great mathematician David Hilbert wrote in 1905 (opens a new tab). Rather, scientists should first find “comfortable spaces to wander around and only subsequently, when signs appear here and",
-        "ups": 0,
-        "author": "WhitneyLand"
-      },
-      {
-        "body": "The problem with this ambition is that it turns mathematics into software development. There’s absolutely nothing wrong with this per se, however what happens is that, as in software, certain ideas get ossified. That’s why, for example, every OS has a POSIX layer even though technically the process namespace security model could be radically reimagined possibly to create more easily engineered, correct software. Mathematics is going through a hug",
-        "ups": 0,
-        "author": "sxzygz"
-      },
-      {
-        "body": "Imagine a future where proofs are discovered autonomously and proved rigorously by machines, and the work of the human mathematician becomes to articulate the most compelling motivations, the clearest explanations, and the most useful maps between intuitions, theorems, and applications. Mathematicians as illuminators and bards of their craft.",
-        "ups": 0,
-        "author": "jl6"
-      },
-      {
-        "body": "With sufficient automation, there shouldn t really be a trade-off between rigor and anything else. The goal should be to automate as much as possible so that whatever well-defined useful thing can come out theory can come out faster and more easily. Formal proofs make sense as part of this goal.",
-        "ups": 0,
-        "author": "umutisik"
-      },
-      {
-        "body": "A few comments: (1) Math journals are being flooded with AI slop papers loaded with errors. I can see a time when they will require papers to be accompanied by formal proofs of the results. This will enable much of the slop to be filtered out. (2) Formalization enables AI to do extensive search while staying grounded. (3) Formalization of the historical math literature (about 3.5M papers) will allow all those results to become available for train",
-        "ups": 0,
-        "author": "pfdietz"
-      },
-      {
-        "body": "I’m confused by the calculus example and I’m hoping someone here can clarify why one can’t state the needed assumptions for roughed out theory that still need to be proven? That is, I’m curious if the critical concern the article is highlighting the requirement to “prove all assumptions before use” or instead the idea that sometimes we can’t even define the blind spots as assumptions in a theory before we use it?",
-        "ups": 0,
-        "author": "johnbender"
-      }
-    ]
-  },
-  {
-    "id": "47577979",
-    "primaryTag": "story",
-    "title": "A sea of sparks: Seeing radioactivity",
-    "description": "",
-    "url": "https://maurycyz.com/projects/spinthariscope/",
-    "ups": 30,
-    "numComments": 11,
-    "createdUtc": 1774895687,
-    "isQuestion": false,
-    "by": "maurycyz",
-    "topComments": [
-      {
-        "body": "If you haven t experienced a spinthariscope, I can highly recommend it. I bought one as a Christmas present for a buddy and we both enjoy its demonstration of radioactivity.",
-        "ups": 0,
-        "author": "r2_pilot"
-      },
-      {
-        "body": "You won t make one at home, but cloud chambers[^1] reveal individual alpha particle tracks. There s one in the Musée des Arts et Métiers in Paris — blew my mind! [^1]: https: en.wikipedia.org wiki Cloud_chamber Edit: turns out people make these at home all the time. Sick!",
-        "ups": 0,
-        "author": "lukasschwab"
-      },
-      {
-        "body": "Don t miss a chance to see the Cherenkov radiation effect at your local research reactor. https: en.wikipedia.org wiki Cherenkov_radiation",
-        "ups": 0,
-        "author": "cbm-vic-20"
-      },
-      {
-        "body": "I tried the same with bananas. Got nothing.",
-        "ups": 0,
-        "author": "dvh"
-      }
-    ]
-  },
-  {
-    "id": "47576317",
-    "primaryTag": "story",
-    "title": "Take better notes, by hand",
-    "description": "",
-    "url": "https://brianschrader.com/archive/take-better-notes-by-hand/",
-    "ups": 132,
-    "numComments": 60,
-    "createdUtc": 1774887836,
-    "isQuestion": false,
-    "by": "sonicrocketman",
-    "topComments": [
-      {
-        "body": "I keep hearing this from time to time, and hey, if taking notes by hand helps you, go for it. More power to you. But I m not you. What works for you may not be a panacea. I work best with notes in a text editor, in markdown. I like to be able to move thoughts around, rearrange them, refine them. That also makes me remember them better. Handwritten notes are not conducive to that.",
-        "ups": 0,
-        "author": "kstenerud"
-      },
-      {
-        "body": "I have a dedicated couple of pages in a notebook, where I write down the note-taking conventions I use. When transitioning to a new notebook, I would copy those pages, possibly making a few improvements based on past usage. A most unhurried release cycle, if I can say so myself. Regarding the space management, there are many solutions straight out of the programming world, of course: utilize both sides of the notebook, reserve a minimum number of",
-        "ups": 0,
-        "author": "h45x1"
-      },
-      {
-        "body": "I love taking notes by hand for better retention, but (my) longhand is just too slow. It s also an inconvenient format for representing a hierachy or graph of connections. Anyone else into what my high school biology teacher loved referring to as &quot;pseudo-arachnomorphic diagrams&quot; (Mind Maps[1] Spider Diagrams)? They re still my primary paper-based realtime note taking method. They seemed to get a lot of attention a couple of decades ago,",
-        "ups": 0,
-        "author": "coldcity_again"
-      },
-      {
-        "body": "Paper is just too inconvenient to use for long term storage and revisiting imo. It s better suited as a transitive storage medium, either for short lived stuff like tasks, checklists, or acting as a writing inbox that you later capture into a digital medium. Even with the capture downside, I don t think that I can do away with paper and pen. There s something invigorating about using paper that no keyboard or screen could replicate. More in touch",
-        "ups": 0,
-        "author": "Bridged7756"
-      },
-      {
-        "body": "I retain information better when taking notes by hand. However, being able to attach an image and search is absolutely required for me, hence why I use digital notes at work. I can keep years of notes in a file which I can take and access anywhere whenever I want.",
-        "ups": 0,
-        "author": "avgDev"
-      },
-      {
-        "body": "I haven t used pen and paper for note taking for years and years now. I used to keep a lot of notes in markdown organized into folders (used obsidian for a bit but was just easier to do in Vim). These days I don t take that many notes, usually only to capture key points decisions in discussions but usually are pretty short lived. I find things get captured in other forms such that notes aren t really needed that much anymore.",
-        "ups": 0,
-        "author": "keithnz"
-      }
-    ]
-  },
-  {
-    "id": "47572771",
-    "primaryTag": "story",
-    "title": "Mathematical methods and human thought in the age of AI",
-    "description": "",
-    "url": "https://arxiv.org/abs/2603.26524",
-    "ups": 176,
-    "numComments": 69,
-    "createdUtc": 1774868737,
-    "isQuestion": false,
-    "by": "zaikunzhang",
-    "topComments": [
-      {
-        "body": "&gt; We assert that artificial intelligence is a natural evolution of human tools developed throughout history to facilitate the creation, organization, and dissemination of ideas, and argue that it is paramount that the development and application of AI remain fundamentally human-centered. While this is a noble goal, it seems obvious that this isn t how it usually goes. For instance, &quot;free market&quot; is often used as a dogma against compa",
-        "ups": 0,
-        "author": "woolion"
-      },
-      {
-        "body": "I skimmed the paper a couple of times, hoping to find the promised (from the abstract) &gt; pathway to integrating AI into our most challenging and intellectually rigorous fields to the benefit of all humankind. There s very little insight here though. It seems mostly a retread of conversations we ve been having in the academic community for a few years now. In particular, I was hoping to see some discussion of how we might restructure our educat",
-        "ups": 0,
-        "author": "gradstudent"
-      },
-      {
-        "body": "The short blog post announcing this paper: https: terrytao.wordpress.com 2026 03 29 mathematical-metho... In particular: &gt; This is an unabridged version of a solicited article for a forthcoming Blackwell Companion to the Philosophy of Mathematics. […] took over a year to write – which means, at the current pace of development in the field, that some of it is already slightly out of date. ---- Edit: The post at https: mathstodon.xyz @tao 116319",
-        "ups": 0,
-        "author": "svat"
-      },
-      {
-        "body": "In fact, the paper has an error in the argument that AI might find Fermat s theorem to be incorrect due to definition of natural numbers including a zero, because paper s version of a theorem explicitly says that the number should be greater than two, and zero cannot be greater than two. Surprisingly, this mistake proves the author s point that human can implicitly understand what was said, and that it still has value to it, even if it s incorrec",
-        "ups": 0,
-        "author": "gettingoverit"
-      },
-      {
-        "body": "&gt; We assert that artificial intelligence is a natural evolution of human tools. While nowhere in the paper this is actually asserted but the abstract, a whiggish narrative of a genuinely unprecedented technology --such that it can replace and supersede human &quot;labour&quot; altogether (one is reminded of The Evolution of Human Science by Ted Chiang)-- sounds naive at best, dangerous at worst.",
-        "ups": 0,
-        "author": "sendes"
-      },
-      {
-        "body": "&gt; Today, unlike in the Luddites’ time, we are already seeing skilled workers replaced not with lower-wage human labor, but with AI. To me this is the weakest claim of the article. This claim been thrown around endlessly without proof. https: fred.stlouisfed.org series IHLIDXUSTPSOFTDEVE Software Engineer job openings for instance is at 2 year high (still far lower than covid dislocations though), but arguably all Enterprise AI was built or dep",
-        "ups": 0,
-        "author": "GodelNumbering"
-      }
-    ]
-  },
-  {
-    "id": "47577120",
-    "primaryTag": "story",
-    "title": "Recover Apple Keychain",
-    "description": "",
-    "url": "https://arkoinad.com/posts/apple_keychain_recovery.html",
-    "ups": 20,
-    "numComments": 2,
-    "createdUtc": 1774891309,
-    "isQuestion": false,
-    "by": "speckx",
-    "topComments": [
-      {
-        "body": "Good information to have. I was surprised by step 2 though (rm login.keychain-db). How can you be absolutely sure it doesn t contain anything important and you won t need it later? I d probably opt for a more defensive action here and just rename it (like the original reset did).",
-        "ups": 0,
-        "author": "zapkyeskrill"
-      },
-      {
-        "body": "It Just Works™... until you don t want to take the default option. I m sure your average user would just be SoL if going through this same experience.",
-        "ups": 0,
-        "author": "xd1936"
-      }
-    ]
-  },
-  {
-    "id": "47575417",
-    "primaryTag": "show",
-    "title": "Show HN: Coasts – Containerized Hosts for Agents",
-    "description": "",
-    "url": "https://github.com/coast-guard/coasts",
-    "ups": 34,
-    "numComments": 10,
-    "createdUtc": 1774883871,
-    "isQuestion": false,
-    "by": "jsunderland323",
-    "topComments": [
-      {
-        "body": "Does it support native macOS containers?",
-        "ups": 0,
-        "author": "smcleod"
-      },
-      {
-        "body": "This looks really cool and I ve definitely been feeling this pain. I ve been building out a solution for myself on top of docker. What are the advantages of using coasts over docker?",
-        "ups": 0,
-        "author": "dbla"
-      },
-      {
-        "body": "The mount propagation approach is clever. Using umount -l + mount --bind + rshared to hot-swap worktrees inside a running DinD container is a nice trick that avoids the full teardown rebuild cycle most people fall back on. One thing I m curious about: how do you handle state drift when agents are working on the same service across different worktrees? For example, if two agents are both making schema changes to a shared database service, do you h",
-        "ups": 0,
-        "author": "Sim-In-Silico"
-      },
-      {
-        "body": "This is pretty cool, have personally felt this limitation many a time. Basically been relying on spinning up cursor niteshift devin workflows since they have their own containers but this could be interesting to keep it all on your main machine.",
-        "ups": 0,
-        "author": "oelmgren"
-      },
-      {
-        "body": "HN questions we know are coming our way: 1) Could you run an agent in the coast? You could... sort of. We started out with this in mind. We wanted to get Claude Max plans to work so we built a way to inject OAuth secrets from the host into the containerized host... unfortunately because the Coast runtime doesn t match the host machine the OAuth token is created on, Anthropic rapidly invalidates the OAuth tokens. This would really only work for TU",
-        "ups": 0,
-        "author": "jsunderland323"
-      },
-      {
-        "body": "[dead]",
-        "ups": 0,
-        "author": "MeetRickAI"
-      }
-    ]
-  },
-  {
-    "id": "47575616",
-    "primaryTag": "story",
-    "title": "FTC action against Match and OkCupid for deceiving users, sharing personal data",
-    "description": "",
-    "url": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party",
-    "ups": 185,
-    "numComments": 96,
-    "createdUtc": 1774884757,
-    "isQuestion": false,
-    "by": "gnabgib",
-    "topComments": [
-      {
-        "body": "Key quote: &gt; Even though it did not have any business relationship with OkCupid, the third-party data recipient asked the company to share large datasets of OkCupid user photos and related data with it because OkCupid’s founders were financial investors in the third party. OkCupid provided the third party with access to nearly three million OkCupid user photos as well as location and other information without placing any formal or contractual ",
-        "ups": 0,
-        "author": "tetromino_"
-      },
-      {
-        "body": "All of these sites do shady shit. I m so glad I m no longer single. I signed up for eHarmony with a unique email address dedicated to that site. After wasting 6 months, I chose to delete my account. Lo and behold, soon spam started to show up on this account, as if the floodgates had been opened. It was a unique account that I had not used anywhere else just for this specific reason, and my hunch was justified.",
-        "ups": 0,
-        "author": "mlmonkey"
-      },
-      {
-        "body": "This article has more information - looks like this was from 12 years ago https: www.reuters.com world match-group-settles-us-ftc-cla... &gt; The FTC said OkCupid users were never told their information - including nearly 3 million photos, demographic information and location data - would be shared in 2014 with Clarifai, a facial recognition technology company, contrary to OkCupid s privacy policies.",
-        "ups": 0,
-        "author": "rm999"
-      },
-      {
-        "body": "Throwaway account. I tried these sites a couple of times each in the past (the UK versions at least). I m married now and fortunately don t have to deal with &quot;the dating scene&quot; and how awful it is was. When I signed up for Match, about ten minutes into the process my account suddenly changed to that of another man including different photo, descriptions, orientation etc. I don t know why this happened but it was absolutely mortifying an",
-        "ups": 0,
-        "author": "junkaccount100"
-      },
-      {
-        "body": "Do I interpret the settlement proposal correctly that the unlawfully-transmitted copies, and any training outcomes derived from them, are not ordered purged?",
-        "ups": 0,
-        "author": "altairprime"
-      },
-      {
-        "body": "No class action or fines for discrimination based on gender? OkCupid gave users different prices based on whether they selected male or female for their profile.",
-        "ups": 0,
-        "author": "rationalist"
-      }
-    ]
-  },
-  {
-    "id": "47570666",
-    "primaryTag": "story",
-    "title": "The curious case of retro demo scene graphics",
-    "description": "",
-    "url": "https://www.datagubbe.se/aipixels/",
-    "ups": 325,
-    "numComments": 82,
-    "createdUtc": 1774848438,
-    "isQuestion": false,
-    "by": "zdw",
-    "topComments": [
-      {
-        "body": "Focusing on &quot;copying&quot; seems like missing the forest for the trees. There s the copyright angle, but copyright laws are unnatural obstacles designed to give the original author some control over what happens after publishing. They re not fundamental, we made the laws. What is fundamental is this: every artist starts out by copying the works of others. It s how you learn. And in that framing, once you publish your derived work, there is o",
-        "ups": 0,
-        "author": "parasti"
-      },
-      {
-        "body": "&gt; Theft from the outside world, however, is often taken lightly - especially when it comes to graphics. One should not forget where the demoscene is coming from: crackers. The whole point of &quot;intros&quot; was to show off the skills of whoever cracked a piece of software. So obviously, the views demoscene held on intellectual property are not mainstream, if we can say it like that. The shift to a more creative and law abiding art scene, le",
-        "ups": 0,
-        "author": "GuB-42"
-      },
-      {
-        "body": "Demo scene graphics competitions these days tend to include work-in-progress images, as evidence of originality. The Revision demo party is soon. From the competition rules for &quot;Oldskool Graphics&quot; [0]: &gt; Include exactly 10 (ten) working stages of your entry. All entries without plausible working stages will be disqualified. Yikes... The rules for &quot;Modern Graphics&quot; [1] and &quot;Paintover&quot; similarly also require work st",
-        "ups": 0,
-        "author": "Findecanor"
-      },
-      {
-        "body": "As it happens I m just on a train to Airbnb with large group of demoscene and fractal art friends, full week ahead of the Revision[0] demoparty! Hells yeah My top pick for pixel art would be anything by Made of demogroup Bomb, don t have a good link to hand sorry and need to change trains etc. Also check this amazing pixel art book: https: www.themastersofpixelart.com [0] https: 2026.revision-party.net",
-        "ups": 0,
-        "author": "pixelpoet"
-      },
-      {
-        "body": "Let s not forget that most of these pictures were made by teenagers, doing the best they could (and hoping others didn t know about Boris Vallejo). The demoscene was very young back then. Copying is generally considered pretty lame in the demoscene these days.",
-        "ups": 0,
-        "author": "skrebbel"
-      },
-      {
-        "body": "I grew up in the era of the Amiga and got into computing in some part due to demoes like Technological Death and Unreal. Not sure if 10 years is too new to be considered retro , but &quot;Intrinsic Gravity&quot; by Still is my favourite demo ever. It s lots of different scenes that transition beautifully from one to another: https: www.youtube.com watch?v=-ZxPhDC-r3w",
-        "ups": 0,
-        "author": "onion2k"
-      }
-    ]
-  },
-  {
-    "id": "47571279",
-    "primaryTag": "story",
-    "title": "I am definitely missing the pre-AI writing era",
-    "description": "",
-    "url": "https://www.lesswrong.com/posts/BJ4pnropWdnzzgeJc/i-am-definitely-missing-the-pre-ai-writing-era",
-    "ups": 193,
-    "numComments": 167,
-    "createdUtc": 1774854198,
-    "isQuestion": false,
-    "by": "joozio",
-    "topComments": [
-      {
-        "body": "I miss the text only reading era. This is a blog and should not need to have JavaScript enabled to render text to a page. I would rather not have to be annoyed by flavor of the month duplicate scroll bars, cookie banners, newsletter pop-ups 5 seconds in, scroll to the top pop-ups, idle overlays, highlight helper bars that break copy paste, etc. This blog didn t have all of those but had some. I m sure the metrics look great because I had to load ",
-        "ups": 0,
-        "author": "jhhh"
-      },
-      {
-        "body": "I’ve completely avoided using AI for writing (although it looks like my coding avoidance is coming to an end). As someone who kind of views using a thesaurus as “cheating”¹, using AI to do the writing is way beyond the pale. A lot of what writing is about for me is about discovering and distilling and figuring out what I think. Take that away and I might as well just the spend the day watching television and playing video games and getting dumber",
-        "ups": 0,
-        "author": "dhosek"
-      },
-      {
-        "body": "&gt;I just wrote what my brain is instructing to type (might not reread it before posting) Why would I put effort into reading something that had no effort put in by the author? This guy needs an editor, AI or otherwise.",
-        "ups": 0,
-        "author": "boca_honey"
-      },
-      {
-        "body": "&gt; And for people who successfully taken back their creative writing skills, how did you do it? “AI is one possible reference for my actual writing”. Generate info and perspectives, but only ever write stuff yourself. Something about this for me forces me to stay in my own “”writing voice”, at least personally, for the various places I use AI tech in. I think of the tech as a chess engine; they are better than any human player but I use them to",
-        "ups": 0,
-        "author": "malwrar"
-      },
-      {
-        "body": "I certainly miss the pre-AI reading era. So much content is just straight copy pasted from the LLM now. Articles, blog posts, linked in posts, reddit comments, etc. Even just using the LLM for editing tends to shift the voice to an obvious LLM voice when used naively. It is getting worse too. Last week a co-worker sent me a screenshot of Claude for me to review their &quot;work&quot;, which was just whatever Claude made up. Usually, if something ",
-        "ups": 0,
-        "author": "time0ut"
-      },
-      {
-        "body": "AI for editing is garbage. Chat to it to get ideas maybe, but in its current incarnation it’s just going to degrade anything you filter through it.",
-        "ups": 0,
-        "author": "piker"
-      }
-    ]
-  },
-  {
-    "id": "47571376",
-    "primaryTag": "story",
-    "title": "I use Excalidraw to manage my diagrams for my blog",
-    "description": "",
-    "url": "https://blog.lysk.tech/excalidraw-frame-export/",
-    "ups": 243,
-    "numComments": 99,
-    "createdUtc": 1774855026,
-    "isQuestion": false,
-    "by": "mlysk",
-    "topComments": [
-      {
-        "body": "Looks pretty cool. I think it s great that you support light dark mode. FWIWI, I m also a huge fan of Excalidraw. I wanted to ask you: is there s a reason you use a separate svg file for each (light dark) mode? A single SVG file using CSS can change it s own colors based on the user s preference. I have an example here: http: alejo.ch 3jj - the 3 plots should honor your mode (I put the generator code here: https: github.com alefore mini_svg ) Jus",
-        "ups": 0,
-        "author": "afc"
-      },
-      {
-        "body": "Huge fan of https: github.com mermaid-js mermaid , not the prettiest things but enough to scratch the itch.",
-        "ups": 0,
-        "author": "1a527dd5"
-      },
-      {
-        "body": "Cool, I did a similar thing last week. I made a custom Payload CMS block that allows to create and update excalidraw diagrams within the CMS. It supports dark and light mode switching and rendering inline or as external SVG. And last weekend I added MCP server with Oauth so I could generate and update those diagrams and add them to post drafts from Claude. I think it is more convenient since I don t have to use API billing model and don t need to",
-        "ups": 0,
-        "author": "Jnr"
-      },
-      {
-        "body": "It would have been great if Excalidraw made it easier to do manage multiple scenes. I use its PWA and save individual files on the disk.",
-        "ups": 0,
-        "author": "sudhirkhanger"
-      },
-      {
-        "body": "Excalidraw has proliferated quite widely in my company since we got Claude Code. Its a shame the default font is ugly, childish and inaccessible.",
-        "ups": 0,
-        "author": "walthamstow"
-      },
-      {
-        "body": "Wow, I had no idea that excalidraw could &quot;import&quot; mermaid!! This is just awesome.. I can have my LLM generate mermaid, which it is really very good at. And then I can edit the diagram!",
-        "ups": 0,
-        "author": "sandos"
-      }
-    ]
-  },
-  {
-    "id": "47526744",
-    "primaryTag": "story",
-    "title": "Proactively Parasocial",
-    "description": "",
-    "url": "https://nicklandolfi.com/posts/proactively-parasocial.html",
-    "ups": 22,
-    "numComments": 3,
-    "createdUtc": 1774500801,
-    "isQuestion": false,
-    "by": "jxmorris12",
-    "topComments": [
-      {
-        "body": "I think it s interesting that at least one end of a parasocial relationship seems to involve relating not to a person (not even in a pretend way) but to a collective of persons where you don t even know the individuals. This is what the relationship looks like on the side of artists, youtubers, but also comments who address their posts as &quot;hey r something&quot; or &quot;hey HN&quot; (or threads like this) - or bloggers. Feels to me, that is ",
-        "ups": 0,
-        "author": "xg15"
-      },
-      {
-        "body": "What the author is describing sounds a lot like idolatry.",
-        "ups": 0,
-        "author": "tolerance"
-      }
-    ]
-  },
-  {
-    "id": "47542640",
-    "primaryTag": "story",
-    "title": "Fibonacci's Composed Fractions",
-    "description": "",
-    "url": "https://ztoz.blog/posts/fibonacci-fractions/",
-    "ups": 9,
-    "numComments": 2,
-    "createdUtc": 1774619382,
-    "isQuestion": false,
-    "by": "aebtebeten",
-    "topComments": [
-      {
-        "body": "Surrey, interactive visualiser https: web.archive.org web 20260115155955 https: r-knott.s...",
-        "ups": 0,
-        "author": "vi_sextus_vi"
-      },
-      {
-        "body": "It took 200 years for Western Arabic numerals to take over accounting from Roman numerals. That s a cautionary tale of entrenched interest if I ever heard one.",
-        "ups": 0,
-        "author": "readthenotes1"
-      },
-      {
-        "body": "[dead]",
-        "ups": 0,
-        "author": "michaelabrt"
-      }
-    ]
-  },
-  {
-    "id": "47576861",
-    "primaryTag": "story",
-    "title": "New Washington state law bans noncompete agreements",
-    "description": "",
-    "url": "https://www.seattletimes.com/business/local-business/new-washington-law-bans-noncompete-agreements/",
-    "ups": 243,
-    "numComments": 97,
-    "createdUtc": 1774890095,
-    "isQuestion": false,
-    "by": "toomuchtodo",
-    "topComments": [
-      {
-        "body": "A clause I frequently see (as one who performs a lot of contract work) is a restriction on accepting an offer of employment from the client of the consulting firm I m contracting with. Whenever I see this clause, I redline it out and advise the consulting firm to fashion a buyout clause* with the client. I m very firm that the consulting firm cannot restrict my employment opportunities. * The buyout clause is between the client and consulting fir",
-        "ups": 0,
-        "author": "Beestie"
-      },
-      {
-        "body": "The article covers this, but probably worth having it mentioned here too: Washington already had partially banned noncompete agreements. They were banned for employees who made less the $127k year or contractors who made less than $317k. Those numbers were adjusted annually for inflation. Edit: less more mixup fixed",
-        "ups": 0,
-        "author": "tzs"
-      },
-      {
-        "body": "The only time I see non-competes as reasonable is when someone sells a business. It seems fair to put a territory restriction on a seller so the new owner doesn t have to immediately start competing against the person they bought out.",
-        "ups": 0,
-        "author": "jeffreyrogers"
-      },
-      {
-        "body": "It’s not the noncompetes that’s the problem, it’s confidentiality agreements with extremely broad language. Learn about the legal principle of “inevitable disclosure”. It’s the idea you can’t work for a competitor because you can’t help yourself but violate an NDA",
-        "ups": 0,
-        "author": "softwaredoug"
-      },
-      {
-        "body": "If you had asked me in 1995 what was the one thing[1] that Boston could change in order to compete with Silicon Valley I would have told you &quot;Make non-compete agreements illegal&quot; Companies in the Bay Area whined about it all the time but it kept the ecosystem vibrant and a lot of technology exists because of that. In the late 90 s early 00s a big reason for a lot of high profile people quitting their cushy job and setting out in a start",
-        "ups": 0,
-        "author": "ChuckMcM"
-      },
-      {
-        "body": "https: archive.ph 2026.03.27-223204 https: www.seattletime...",
-        "ups": 0,
-        "author": "mitchbob"
-      }
-    ]
-  },
-  {
-    "id": "47575935",
-    "primaryTag": "story",
-    "title": "An NSFW filter for Marginalia search",
-    "description": "",
-    "url": "https://www.marginalia.nu/log/a_134_nsfw/",
-    "ups": 53,
-    "numComments": 12,
-    "createdUtc": 1774886291,
-    "isQuestion": false,
-    "by": "speckx",
-    "topComments": [
-      {
-        "body": "Does marginalia_nu not use embedding models as part of search? I guess I assumed it would. If you have embeddings anyway, decision trees on the embedding vector (e.g. catboost) tend to work pretty well. Fine-tuning modernbert works even better but probably won t meet the criteria of &quot;really fast and run well on CPUs&quot;. That said, the approach described in the article seems to work well enough and obviously provides extremely cheap infere",
-        "ups": 0,
-        "author": "ChadNauseam"
-      },
-      {
-        "body": "This was a very meandering project, and trying to corral it into some sort of coherent narrative was a bit of an undertaking on its own. Hopefully it makes some sense.",
-        "ups": 0,
-        "author": "marginalia_nu"
-      },
-      {
-        "body": "Have you seen many examples of websites labeling themselves, perhaps using rating meta tags (&lt;meta name=&quot;rating&quot; ...&gt;)? Self-labeling seems valuable in some ways, but I don t think I ve seen it catch on.",
-        "ups": 0,
-        "author": "8organicbits"
-      },
-      {
-        "body": "[dead]",
-        "ups": 0,
-        "author": "GenericDev"
-      }
-    ]
-  },
-  {
-    "id": "47571495",
-    "primaryTag": "story",
-    "title": "Hamilton-Jacobi-Bellman Equation: Reinforcement Learning and Diffusion Models",
-    "description": "",
-    "url": "https://dani2442.github.io/posts/continuous-rl/",
-    "ups": 137,
-    "numComments": 41,
-    "createdUtc": 1774856044,
-    "isQuestion": false,
-    "by": "sebzuddas",
-    "topComments": [
-      {
-        "body": "I ve just started to try and learn the basics of RL and the Bellman Equation - are there any good books or resources I should look at? I think this post is beyond my current level. I m most interested in how the equation can be implemented step by step in an ML library - worked examples would be very helpful. Thank you!",
-        "ups": 0,
-        "author": "lukko"
-      },
-      {
-        "body": "Ever since the control bug bit me in my EE undergrad years I am happy to see how useful the knowledge remains. Of course the underlying math of optimization remains general but the direct applications of control theory made it much more appetizing for me to struggle through.",
-        "ups": 0,
-        "author": "Cloudly"
-      },
-      {
-        "body": "Nice summary, saving it. If author is around, Bellman equation label ended overlapped to eqn., and pargraph quoting signs got into HJB displayed one. Suggest changes is 404 not found. Liked the presentation overall, thank you!",
-        "ups": 0,
-        "author": "jesuslop"
-      },
-      {
-        "body": "I find myself completely outclassed by mathematicians in my own field. I tried to learn a little math on the side after my regular software engineer gig but I m completely outclassed by phd s. I am unsure of the next course of action or if software will survive another 5 years and how my career will look like in the future. Seems like I am engaged in the ice trade and they are about to invent the refrigerator.",
-        "ups": 0,
-        "author": "lain98"
-      },
-      {
-        "body": "It s not clear or obvious why continuous semantics should be applicable on a digital computer. This might seem like nitpicking but it s not, there is a fundamental issue that is always swept under the rug in these kinds of analysis which is about reconciling finitary arithmetic over bit strings &amp; the analytical equations which only work w infinite precision over the real or complex numbers as they are usually defined (equivalence classes of c",
-        "ups": 0,
-        "author": "measurablefunc"
-      },
-      {
-        "body": "[dead]",
-        "ups": 0,
-        "author": "nareyko"
-      }
-    ]
-  },
-  {
-    "id": "47574346",
-    "primaryTag": "story",
-    "title": "The ladder is missing rungs – Engineering Progression When AI Ate the Middle",
-    "description": "",
-    "url": "https://negroniventurestudios.com/2026/03/19/the-ladder-is-missing-rungs/",
-    "ups": 44,
-    "numComments": 7,
-    "createdUtc": 1774878691,
-    "isQuestion": false,
-    "by": "sorenvrist",
-    "topComments": [
-      {
-        "body": "Spot on. All those years of slinging code and debugging gave me and others the judgement and eye to check on all the AI generated code. I now wonder often about what hiring looks like in this new era. As a small startup, we just don t need junior engineers to do the day to day implementation. Do we instead hire a small number of people as apprentices to train on the high level patterns, spot trouble areas, develop good taste for clean software? T",
-        "ups": 0,
-        "author": "ngburke"
-      },
-      {
-        "body": "Demand for software is large and as the cost goes down we ll want more of it, so there will be demand to keep training people.",
-        "ups": 0,
-        "author": "datadrivenangel"
-      },
-      {
-        "body": "I feel like some of the data in this is horrendously out of date. They re referencing articles from the end of 2024. There was a massive step-change in the capability of these models towards the end of 2025. There is just no way that an experienced developer should be slower using the current tools. Doesn t match my experience at all. The title of the article, though - absolutely true IMO",
-        "ups": 0,
-        "author": "wolttam"
-      }
-    ]
-  },
-  {
-    "id": "47576978",
-    "primaryTag": "story",
-    "title": "You are falling behind because you haven't fed the insincerity machine",
-    "description": "",
-    "url": "https://christianheilmann.com/2026/03/28/you-are-falling-behind-because-you-havent-fed-the-insincerity-machine-in-the-last-5-minutes/",
-    "ups": 105,
-    "numComments": 24,
-    "createdUtc": 1774890596,
-    "isQuestion": false,
-    "by": "speckx",
-    "topComments": [
-      {
-        "body": "I amsure it was Jaron Lanier, in his book Who Owns The Future, who predicted the inevitable outcome of bots talking to bots on social media. He said that in 2013, and now we re in 2026, not only is it possible, but it s very likely. I am glad about it. I think social media, in its current ad-infested, addiction-fueled data-harvesting form, is pure poison.",
-        "ups": 0,
-        "author": "CrzyLngPwd"
-      },
-      {
-        "body": "It s got to be said that rewarding people who make content on a regular, frequent schedule seems to A: be a way of coercing a fairly high minimum level of labour out of platformed accounts and B: a good way of flooding feeds with content which is largely devoid of novelty as a handful of prolific accounts dominate what people end up seeing.",
-        "ups": 0,
-        "author": "captainbland"
-      },
-      {
-        "body": "https: en.wikipedia.org wiki Interpassivity",
-        "ups": 0,
-        "author": "musha68k"
-      },
-      {
-        "body": "The advice here is good, and I m a big believer that the cream (e.g., sincerity and real opinions) rises to the top for writing. Still, think folks dunk on these types of writing automation tools too much when, for many, they can be a gateway drug to consistent posting and finding your online voice. That is to say, the whole post is a bit of an internet old-head complaint. Reminds me of baby boomers complaining about a &quot;decline&quot; in home",
-        "ups": 0,
-        "author": "botacode"
-      },
-      {
-        "body": "&quot;Sincerity is the key to success. If you can fake it, you ve got it made&quot; -- Groucho Marx (probably)",
-        "ups": 0,
-        "author": "skywal_l"
-      },
-      {
-        "body": "Who are these influencers that are getting ahead by dolling out AI slop in their likeness?",
-        "ups": 0,
-        "author": "bethekidyouwant"
+        "author": "nothrowaways"
       }
     ]
   }

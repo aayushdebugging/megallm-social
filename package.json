@@ -38,7 +38,10 @@
     "assistant:hn:draft": "node tools/hackernews-assistant/draft-comments.js",
     "assistant:hn:test": "node tools/hackernews-assistant/test-config.js",
     "assistant:bluesky:fetch": "node tools/bluesky-assistant/fetch-feed.js",
-    "assistant:bluesky:draft": "node tools/bluesky-assistant/draft-comments.js"
+    "assistant:bluesky:draft": "node tools/bluesky-assistant/draft-comments.js",
+    "assistant:x": "node tools/x-assistant/server.js",
+    "assistant:x:fetch": "node tools/x-assistant/fetch-tweets.js",
+    "assistant:x:draft": "node tools/x-assistant/draft-comments.js"
   },
   "keywords": [],
   "author": "",
